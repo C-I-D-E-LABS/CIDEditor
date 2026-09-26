@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<group name="PlayState">
+		<str id="game.score">Score:{0}</str>
+		<str id="game.misses">Misses:{0}</str>
+		<str id="game.comboBreaks">Combo Breaks:{0}</str>
+		<str id="game.accuracy">Accuracy:{0} - {1}</str>
+		<str id="game.combo">Combo:{0}</str>
+
+		<str id="game.rating.[N/A]">[N/A]</str>
+		<str id="game.rating.F">F</str>
+		<str id="game.rating.E">E</str>
+		<str id="game.rating.D">D</str>
+		<str id="game.rating.C">C</str>
+		<str id="game.rating.B">B</str>
+		<str id="game.rating.A">A</str>
+		<str id="game.rating.S">S</str>
+		<str id="game.rating.S++">S++</str>
+	</group>
+
+	<group name="StoryMenu">
+		<str id="story.score">WEEK SCORE:{0}</str>
+		<str id="story.tracks">TRACKS</str>
+	</group>
+
+	<group name="Freeplay">
+		<str id="freeplay.score">PERSONAL BEST:{0}</str>
+		<str id="freeplay.solo">Solo</str>
+		<str id="freeplay.opponentMode">Opponent Mode</str>
+		<str id="freeplay.coopMode">Co-Op Mode</str>
+		<str id="freeplay.coopModeSwitched">Co-Op Mode (Switched)</str>
+	</group>
+
+	<group name="Pause">
+		<group name="PauseOptions">
+			<str id="pause.resume">Resume</str>
+			<str id="pause.restartSong">Restart Song</str>
+			<str id="pause.changeControls">Change Controls</str>
+			<str id="pause.changeOptions">Change Options</str>
+			<str id="pause.exitToMenu">Exit to menu</str>
+			<str id="pause.exitToCharter">Exit to charter</str>
+			<str id="pause.resumeCutscene">Resume Cutscene</str>
+			<str id="pause.skipCutscene">Skip Cutscene</str>
+			<str id="pause.restartCutscene">Restart Cutscene</str>
+		</group>
+
+		<str id="pause.deathCounter">Blue balled: {0}</str>
+		<str id="pause.coopMode">CO-OP MODE</str>
+		<str id="pause.opponentMode">OPPONENT MODE</str>
+	</group>
+
+	<group name="Credits">
+		<group name="CreditsCodename">
+			<str id="credits.mainDev" notrim="true"> *- Public member of the main Devs!*</str>
+			<str id="credits.totalContributions">Total Contributions: ~{0}~ / *{1}* (~{2}%~) - Select to open GitHub account</str>
+			<str id="credits.downloadingList">Downloading List...</str>
+			<str id="credits.allContributors">All the contributors of the engine! - Press RESET to update the list (One reset per 2 minutes).</str>
+		</group>
+		<group name="CreditsMain">
+			<str id="credits.name">Credits</str>
+			<str id="credits.madePossible">The people who made this possible!</str>
+			<str id="credits.selectCodename">Select this to see all the contributors of the engine!</str>
+			<str id="credits.selectBase">Select this to open the itch.io page of the original game to donate!</str>
+		</group>
+	</group>
+
+	<group name="Mods">
+		<str id="mods.disableMods">Disable Mods</str>
+	</group>
+
+	<group name="MainMenu">
+		<str id="mainMenu.commit">Commit: {0} ({1})</str>
+		<str id="mainMenu.openMods">[{0}] Open Games menu</str>
+	</group>
+
+	<group name="GamesMenu">
+		<str id="gamesMenu.name">Games</str>
+		<str id="gamesMenu.desc">Select a game to run, or manage your games.</str>
+		<str id="gamesMenu.newGame">New Game</str>
+		<str id="gamesMenu.newGameDesc">Press ACCEPT to create a new game.</str>
+		<str id="gamesMenu.importGame">Import Game</str>
+		<str id="gamesMenu.editorOptions">Editor Options</str>
+		<str id="gamesMenu.progress.exporting">Exporting "{0}"...</str>
+		<str id="gamesMenu.progress.importing">Importing "{0}"...</str>
+		<str id="gamesMenu.import.notGameTitle">Not a Game Folder</str>
+		<str id="gamesMenu.import.notGameBody">"{0}" doesn't look like a game or Codename Engine mod (no data, images or songs folder inside it).</str>
+		<str id="gamesMenu.import.doneTitle">Import Complete</str>
+		<str id="gamesMenu.import.doneBody">"{0}" was imported into your games list and converted for CIDE where needed. The original was not modified.\n\n{1} file(s) rewritten, {2} renamed, {3} line(s) that need a human look.\n\nFull report:\n{4}</str>
+		<str id="gamesMenu.import.failedNote">{0} file(s) could not be copied or rewritten - they're listed in the report.</str>
+		<str id="gamesMenu.importGameDesc">Press ACCEPT to import a game folder from your computer.</str>
+		<str id="gamesMenu.openGame">Press ACCEPT to view this game's options.</str>
+		<str id="gamesMenu.empty">No games yet - create or import one above.</str>
+
+		<group name="GamesMenuActions">
+			<str id="gamesMenu.actions.desc">Choose what to do with this game.</str>
+			<str id="gamesMenu.actions.run">Run</str>
+			<str id="gamesMenu.actions.runDesc">Press ACCEPT to launch this game.</str>
+			<str id="gamesMenu.actions.edit">Edit</str>
+			<str id="gamesMenu.actions.editDesc">Press ACCEPT to launch this game with developer mode and the editors enabled.</str>
+			<str id="gamesMenu.actions.export">Export</str>
+			<str id="gamesMenu.actions.exportDesc">Press ACCEPT to export this game as a standalone .exe you can share.</str>
+			<str id="gamesMenu.actions.exportNoShellTitle">No Release Shell Found</str>
+			<str id="gamesMenu.actions.exportNoShellBody">No prebuilt release shell was found at "{0}".\nBuild one first by running: lime build windows -release -DRELEASE_SHELL</str>
+			<str id="gamesMenu.actions.exportDoneTitle">Export Complete</str>
+			<str id="gamesMenu.actions.exportDoneBody">Your game was exported to:\n{0}</str>
+			<str id="gamesMenu.actions.exportPartialTitle">Export Finished With Errors</str>
+			<str id="gamesMenu.actions.exportPartialBody">{0} file(s) could not be copied - probably locked because something out of the shell folder (eg. a shell.exe you ran earlier) is still running. Close it and export again.\n\n{1}\n\nWhat did copy is here:\n{2}</str>
+			<str id="gamesMenu.actions.remove">Remove</str>
+			<str id="gamesMenu.actions.removeDesc">Press ACCEPT to permanently delete this game.</str>
+			<str id="gamesMenu.actions.removeConfirmTitle">Remove Game</str>
+			<str id="gamesMenu.actions.removeConfirmBody">Are you sure you want to permanently delete "{0}"? This cannot be undone.</str>
+			<str id="gamesMenu.actions.rename">Rename</str>
+			<str id="gamesMenu.actions.setIcon">Set Icon</str>
+			<str id="gamesMenu.actions.setIconTitle">Icon Set</str>
+			<str id="gamesMenu.actions.setIconBody">"{0}" now has its own icon. It shows in this list, is used as the game window icon, and is embedded into the .exe when you export.\n\nA square image (256x256 or larger) looks best.</str>
+			<str id="gamesMenu.actions.setIconInvalidTitle">Invalid Image</str>
+			<str id="gamesMenu.actions.setIconInvalidBody">That file could not be read as an image. Pick a PNG or JPG.</str>
+			<str id="gamesMenu.actions.exportIconFailed">Note: the game icon could not be applied to the .exe file itself ({0}). The window icon still works.</str>
+			<str id="gamesMenu.actions.renameDesc">Press ACCEPT to rename this game's folder.</str>
+		</group>
+
+		<group name="GamesMenuCreate">
+			<str id="gamesMenu.create.winTitle">Create New Game</str>
+			<str id="gamesMenu.create.gameName">Game Name</str>
+			<str id="gamesMenu.create.createButton">Create</str>
+			<str id="gamesMenu.create.emptyNameTitle">Invalid Name</str>
+			<str id="gamesMenu.create.emptyNameBody">Please enter a game name.</str>
+			<str id="gamesMenu.create.alreadyExistsTitle">Game Already Exists</str>
+			<str id="gamesMenu.create.alreadyExistsBody">A game named "{0}" already exists.</str>
+		</group>
+
+		<group name="GamesMenuRename">
+			<str id="gamesMenu.rename.winTitle">Rename Game</str>
+			<str id="gamesMenu.rename.gameName">New Name</str>
+			<str id="gamesMenu.rename.renameButton">Rename</str>
+			<str id="gamesMenu.rename.emptyNameTitle">Invalid Name</str>
+			<str id="gamesMenu.rename.emptyNameBody">Please enter a game name.</str>
+			<str id="gamesMenu.rename.alreadyExistsTitle">Game Already Exists</str>
+			<str id="gamesMenu.rename.alreadyExistsBody">A game named "{0}" already exists.</str>
+		</group>
+	</group>
+
+	<group name="CideWarning">
+		<str id="cideWarning.modSwitch">Warning: CIDE does not support Mod switching.</str>
+		<str id="cideWarning.release">Warning: You're in a release build. Please download the CIDE editor and try again.</str>
+		<str id="cideWarning.hint">Press ACCEPT or BACK to close.</str>
+	</group>
+
+	<group name="Updater">
+		<group name="UpdateAvailable">
+			<str id="updateAvailable.title">NEW UPDATE</str>
+			<str id="updateAvailable.install">INSTALL</str>
+			<str id="updateAvailable.skip">SKIP</str>
+		</group>
+		<group name="UpdateScreen">
+			<str id="updateScreen.general-1">Preparing update installation...</str>
+			<str id="updateScreen.part-1">Creating installation folder and cleaning old update files...</str>
+
+			<str id="updateScreen.general-2">Downloading update assets...</str>
+			<str id="updateScreen.part-2">Downloading file {0}</str>
+
+			<str id="updateScreen.general-3">Downloading new engine executable...</str>
+			<str id="updateScreen.part-3">Downloading {0}</str>
+
+			<str id="updateScreen.general-4">Installing new files...</str>
+			<str id="updateScreen.part-4">Installing {0}</str>
+		</group>
+	</group>
+
+	<group name="Difficulties">
+		<str id="diff.easy">Easy</str>
+		<str id="diff.normal">Normal</str>
+		<str id="diff.hard">Hard</str>
+		<str id="diff.erect">Erect</str>
+		<str id="diff.nightmare">Nightmare</str>
+	</group>
+</language>

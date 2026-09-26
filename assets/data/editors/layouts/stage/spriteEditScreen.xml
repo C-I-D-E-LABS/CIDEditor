@@ -1,0 +1,284 @@
+<window width="1056" height="520" title="${translate('win-sprite-title', [button.getName()])}">
+	<set name="MARGIN" value="20" />
+	<set name="XOFFSET" value="50" />
+	<set name="YOFFSET" value="40" />
+	<set name="TO" value="64" />
+
+	<exec>
+		function col(c:Int) {
+			return MARGIN + (200 + XOFFSET) * c;
+		}
+
+		if(sprite.animateAtlas == null) {
+			previewSprite =  new FunkinSprite(MARGIN, self.winHeight - (100 + MARGIN));
+			previewSprite.frame = sprite.frame;
+
+			self.add(previewSprite);
+		}
+
+		function animTypeToString(animType:AnimType) { 
+			return ["none", "beat", "loop"][animType]; 
+		}
+		if (getEx('anims') == null)
+			setEx('anims', sprite.animDatas.copy());
+	</exec>
+
+	<title name="title" x="20" y="30 + 16" text="${translate('sprite-title')}" />
+
+	<section> <!-- ROW 1 -->
+		<set name="curY" value="title.y + TO" />
+
+		<textbox name="nameTextBox" label="${translate('nameID')}" value="button.getName()"   x="col(0)" y="curY" width="200" height="32" />
+		<textbox name="spriteTextBox" value="getEx('imageFile')" x="last.x + last.bWidth + XOFFSET" y="curY" width="200" height="32" />
+		<stepper name="alphaStepper" label="Alpha" value="sprite.alpha" x="last.x + last.bWidth + XOFFSET" y="curY" precision="2" step="0.01" width="100" />
+		<dropdown name="blendMode" label="${translate('blendMode')}" value="sprite.blend" x="last.x + last.bWidth + XOFFSET - 20" y="curY" width="150" height="32">
+			<item label="${translate('blendMode.none')}" value="null" />
+			<item label="${translate('blendMode.add')}" value="'add'" />
+			<item label="${translate('blendMode.alpha')}" value="'alpha'" />
+			<item label="${translate('blendMode.color')}" value="'color'" />
+			<item label="${translate('blendMode.colordodge')}" value="'colordodge'" />
+			<item label="${translate('blendMode.colorburn')}" value="'colorburn'" />
+			<item label="${translate('blendMode.darken')}" value="'darken'" />
+			<item label="${translate('blendMode.difference')}" value="'difference'" />
+			<item label="${translate('blendMode.exclusion')}" value="'exclusion'" />
+			<item label="${translate('blendMode.erase')}" value="'erase'" />
+			<item label="${translate('blendMode.hardlight')}" value="'hardlight'" />
+			<item label="${translate('blendMode.hue')}" value="'hue'" />
+			<item label="${translate('blendMode.invert')}" value="'invert'" />
+			<item label="${translate('blendMode.layer')}" value="'layer'" />
+			<item label="${translate('blendMode.lighten')}" value="'lighten'" />
+			<item label="${translate('blendMode.luminosity')}" value="'luminosity'" />
+			<item label="${translate('blendMode.multiply')}" value="'multiply'" />
+			<item label="${translate('blendMode.overlay')}" value="'overlay'" />
+			<item label="${translate('blendMode.screen')}" value="'screen'" />
+			<item label="${translate('blendMode.shader')}" value="'shader'" />
+			<item label="${translate('blendMode.softlight')}" value="'softlight'" />
+			<item label="${translate('blendMode.subtract')}" value="'subtract'" />
+			<item label="${translate('blendMode.saturation')}" value="'saturation'" />
+		</dropdown>
+		<label name="imageFile" text="${translate('imageFile', [stage.spritesParentFolder])}" x="spriteTextBox.x" y="spriteTextBox.y - 14" size="15" />
+	</section>
+
+	<section> <!-- ROW 2 -->
+		<set name="curY" value="nameTextBox.y + nameTextBox.bHeight + YOFFSET" />
+
+		<stepper name="xStepper" label="X" value="sprite.x" x="col(0)" y="curY" step="1" width="100" />
+		<stepper name="yStepper" label="Y" value="sprite.y" x="last.x + last.bWidth + XOFFSET - 20" y="curY" step="1" width="100" />
+
+		<stepper name="scrollXStepper" label="${translate('scroll', ['X'])}" value="sprite.scrollFactor.x" x="spriteTextBox.x" y="curY" precision="2" step="0.01" width="100" />
+		<stepper name="scrollYStepper" label="${translate('scroll', ['Y'])}" value="sprite.scrollFactor.y" x="last.x + last.bWidth + XOFFSET - 20" y="curY" precision="2" step="0.01" width="100" />
+
+		<stepper name="scaleXStepper" label="${translate('scale', ['X'])}" value="sprite.scale.x" x="col(2)" y="curY" precision="2" step="0.01" width="100" />
+		<stepper name="scaleYStepper" label="${translate('scale', ['Y'])}" value="sprite.scale.y" x="last.x + last.bWidth + XOFFSET - 20" y="curY" precision="2" step="0.01" width="100" />
+	</section>
+
+	<section> <!-- ROW 3 -->
+		<set name="curY" value="xStepper.y + xStepper.bHeight + YOFFSET" />
+
+		<stepper name="angleStepper" label="${translate('angle')}" value="sprite.angle" x="col(0)" y="curY" precision="2" step="0.01" width="100" />
+		<stepper name="zoomFactorStepper" label="${translate('zoomFactor')}" value="sprite.zoomFactor" x="last.x + last.bWidth + XOFFSET - 20" y="curY" precision="2" step="0.01" width="100" />
+
+		<!-- TODO: Simplify this -->
+		<dropdown name="animType" label="${translate('animType')}" value="sprite.spriteAnimType" x="col(1)" y="curY" width="150" height="32">
+			<item label="${translate('animType.none')}" value="0" />
+			<item label="${translate('animType.beat')}" value="1" />
+			<item label="${translate('animType.loop')}" value="2" />
+		</dropdown>
+
+		<stepper name="skewXStepper" label="${translate('skew', ['X'])}" value="sprite.skew.x" x="col(2)" y="curY" precision="2" step="0.01" width="100" />
+		<stepper name="skewYStepper" label="${translate('skew', ['Y'])}" value="sprite.skew.y" x="last.x + last.bWidth + XOFFSET - 20" y="curY" precision="2" step="0.01" width="100" />
+	</section>
+
+	<section> <!-- ROW 4 -->
+		<set name="curY" value="angleStepper.y + angleStepper.bHeight + YOFFSET" />
+
+		<checkbox name="antialiasingCheckbox" text="${translate('antialiasing')}" value="sprite.antialiasing" x="col(0)" y="curY" />
+		<radio for="memoryCheck" name="highMemoryRadio" text="${translate('highMemory')}" value="getEx('highMemory')" x="col(1)" y="curY" />
+		<radio for="memoryCheck" name="lowMemoryRadio" text="${translate('lowMemory')}" value="getEx('lowMemory')" x="col(2)" y="curY" />
+	</section>
+
+	<section> <!-- RIGHT SIDE -->
+		<set name="curY" value="title.y + TO" />
+		<set name="listWidth" value="250" />
+
+		<buttonlist name="animations" label="${translate('animations')}" x="col(3)" y="curY" width="listWidth" height="330" buttonSizeX="listWidth-10" buttonSizeY="35" buttonSpacing="5">
+			<texture path="editors/ui/inputbox" />
+			<camSpacing value="0" />
+
+			<code>
+				//import funkin.backend.utils.XMLUtil.AnimData;
+				import funkin.editors.stage.elements.StageSpriteAnimButton;
+
+				var buttonList = buttonlist; // important for now, since it gets reset after the code is run
+				var width = buttonList.buttonSize.x;
+				var height = buttonList.buttonSize.y;
+
+				inline function addAnimBtn(animData:AnimData) {
+					var animButton = new StageSpriteAnimButton(animData, buttonList, width, height, width / 5, width / 3);
+					animButton.spriteXML = xml;
+					buttonList.add(animButton);
+				}
+
+				buttonList.addButton.callback = function() {
+					final dummyAnim = {
+						name: TranslationUtil.translate('characterEditor.characterAnim.defaultAnimName'),
+						anim: translate('defaultAnimPrefix'),
+						fps: 24,
+						loop: false,
+						animType: animType.value,
+						x: 0,
+						y: 0,
+						indices: [],
+						label: false
+					};
+					addAnimBtn(dummyAnim);
+				}
+
+				for (animData in getEx('anims')) {
+					if (animData.name == 'idle' &amp;&amp; animData.anim == null) continue; // Skips dummy animation added by XMLUtil.loadSpriteFromXML
+					addAnimBtn(animData);
+				}
+			</code>
+		</buttonlist>
+
+		<text text="${translate('tipCustomProperties')}" x="col(2) - 60" y="self.winHeight - 50" size="15" />
+	</section>
+
+
+	<!-- Preview Transform -->
+
+	<section if="previewSprite != null">
+		<title name="previewTitle" x="20" y="self.winHeight - 150" text="${translate('transformPreview')}" size="15" />
+	</section>
+
+	<exec>
+		var prevText = spriteTextBox.label.text;
+		var prevID = nameTextBox.label.text;
+		var spriteExists = true;
+		var ratio = sprite.width / sprite.height;
+
+		spriteTextBox.onChange = function(text) {
+			var newSprite = stage.spritesParentFolder + text;
+			var animated = Paths.framesExists(newSprite, true);
+			spriteExists = ( animated || Assets.exists(Paths.image(newSprite)) );
+
+			if (text != prevText &amp;&amp; spriteExists) {
+				if (animated) previewSprite.frames = Paths.getFrames(newSprite, previewSprite.animateSettings);
+				else previewSprite.loadGraphic(Paths.image(newSprite));
+				previewSprite.updateHitbox();
+				
+				ratio = previewSprite.width / previewSprite.height;
+				previewSprite.colorTransform.__identity();
+			} else if (!spriteExists) {
+				previewSprite.colorTransform.color = 0xFFEF0202;
+			}
+			prevText = text; 
+		}
+		
+		function onUpdate() {
+			if (nameTextBox.label.text != prevID)
+				self.winTitle = self.titleSpr.text = translate('win-sprite-title', [nameTextBox.label.text]);
+			prevID = nameTextBox.label.text;
+
+			if(previewSprite == null) return;
+			previewSprite.color = 0xFFFFFFFF; // TODO: Color Wheel
+			previewSprite.blend = BlendMode.fromString(blendMode.value);
+			previewSprite.skew.x = skewXStepper.value;
+			previewSprite.skew.y = skewYStepper.value;
+			previewSprite.angle = angleStepper.value;
+			previewSprite.alpha = alphaStepper.value;
+			previewSprite.antialiasing = antialiasingCheckbox.checked;
+			previewSprite.setGraphicSize(85 * scaleXStepper.value * ratio, 85 * scaleYStepper.value);
+			previewSprite.updateHitbox();
+		}
+		
+		function onSave() {
+			sprite.name = nameTextBox.label.text;
+			setEx("imageFile", spriteTextBox.label.text);
+
+			setEx("highMemory", highMemoryRadio.checked);
+			setEx("lowMemory", lowMemoryRadio.checked);
+
+			sprite.x = xStepper.value;
+			sprite.y = yStepper.value;
+			sprite.zoomFactor = zoomFactorStepper.value;
+			sprite.antialiasing = antialiasingCheckbox.checked;
+			//sprite.color = colorWheel.color;
+			sprite.spriteAnimType = animTypeToString(animType.value);
+			sprite.angle = angleStepper.value;
+			sprite.alpha = alphaStepper.value;
+			sprite.blend = BlendMode.fromString(blendMode.value);
+
+			function saveXY(obj:Dynamic, name:String, x:UINumericStepper, y:UINumericStepper) {
+				button.xml.remove(name + "");
+				button.xml.remove(name + "x");
+				button.xml.remove(name + "y");
+
+				obj.x = x.value;
+				obj.y = y.value;
+
+				if(x.value == y.value)
+					button.xml.set(name, x.value);
+				else {
+					button.xml.set(name + "x", x.value);
+					button.xml.set(name + "y", y.value);
+				}
+			}
+			function save(name:String, value:Dynamic) {
+				button.xml.remove(name);
+				button.xml.set(name, value);
+			}
+
+			button.xml.set("name", nameTextBox.label.text);
+			button.xml.set("sprite", spriteTextBox.label.text);
+			button.xml.set("x", xStepper.value);
+			button.xml.set("y", yStepper.value);
+			button.xml.set("zoomfactor", zoomFactorStepper.value);
+			button.xml.set("type", animTypeToString(animType.value));
+			button.xml.set("antialiasing", antialiasingCheckbox.checked);
+			button.xml.set("angle", angleStepper.value);
+			button.xml.set("alpha", alphaStepper.value);
+			button.xml.remove("blend");
+			if (sprite.blend != null)
+				button.xml.set("blend", blendMode.value);
+
+			getEx('anims').clear();
+			var allowedAnims:Array&lt;String&gt; = [for (b in animations.buttons.members) b.animData.name];
+			for (node in button.xml.elementsNamed('anim')) if (!allowedAnims.contains( node.get('name') ))
+				button.xml.removeChild(node);
+
+			for (i in 0...animations.buttons.length) {
+				var actualChildren:Array&lt;Xml&gt; = button.xml.children.filter((f) -&gt; f.nodeType == 0);
+				if (i &gt; actualChildren.length - 1) {
+					var newAnim = Xml.createElement('anim');
+					button.xml.addChild(newAnim);
+					actualChildren.push(newAnim);
+					//trace("added new at " + i + ": " + newAnim);
+				}
+
+				final animData:AnimData = animations.buttons.members[i].animData;
+				final animNode:Xml = actualChildren[i];
+				//trace(animNode + "(" + i + ") before");
+				animNode.set("name", animData.name);
+				animNode.set("type", animTypeToString(animData.animType)); // XMLAnimType is abstract of int, the code is treating it as just int 
+				animNode.set("anim", animData.anim);
+				animNode.set("fps", animData.fps);
+				animNode.set("x", animData.x);
+				animNode.set("y", animData.y);
+				animNode.set("loop", animData.loop);
+				animNode.set("forced", CoolUtil.getDefault(animData.forced, false));
+				animNode.set("indices", CoolUtil.formatNumberRange(animData.indices));
+				animNode.set("label", animData.label);
+				//trace(animNode + "(" + i + ")");
+				getEx('anims').set(animData.name, animData);
+			}
+
+			saveXY(sprite.scrollFactor, "scroll", scrollXStepper, scrollYStepper);
+			saveXY(sprite.scale, "scale", scaleXStepper, scaleYStepper);
+			saveXY(sprite.skew, "skew", skewXStepper, skewYStepper);
+			XMLUtil.loadSpriteFromXML(sprite, button.xml, stage.spritesParentFolder);
+			button.updateInfo();
+			setEx('node', button.xml);
+		}
+	</exec>
+</window>

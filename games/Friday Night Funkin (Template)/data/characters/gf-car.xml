@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="false" flipX="false" x="75" y="335" centercam="false" icon="gf" color="#A5004D">
+	<anim name="danceLeft" anim="GF Dancing Beat Hair blowing CAR" indices="0..15" />
+	<anim name="danceRight" anim="GF Dancing Beat Hair blowing CAR" indices="16..30" />
+</character>
