@@ -70,7 +70,7 @@ function create() {
 		if (s.name == Options.freeplayLastSong)
 			curSelected = k;
 	}
-
+	
 	updateCurDifficulties();
 	for (i => diff in curDifficulties) {
 		if (curDiffMetaKeys[i] == Options.freeplayLastVariation && diff == Options.freeplayLastDifficulty)
@@ -84,9 +84,10 @@ function create() {
 	bg = new FlxSprite(0, 0);
 	CoolUtil.loadAnimatedGraphic(bg, Paths.image('menus/menuDesat'));
 	if (songs.length > 0)
-		bg.color = songs[0].color;
+	bg.color = songs[0].color;
 	bg.antialiasing = true;
 	add(bg);
+	
 
 	grpSongs = new FlxTypedGroup<Alphabet>();
 	add(grpSongs);

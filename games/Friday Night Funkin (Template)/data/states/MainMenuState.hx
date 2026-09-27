@@ -48,7 +48,7 @@ function create() {
 
 	bg = new FlxSprite(-80);
 	CoolUtil.loadAnimatedGraphic(bg, Paths.image('menus/menuBG'));
-	//add(bg);
+	add(bg);
 
 	camFollow = new FlxObject(0, 0, 1, 1);
 	add(camFollow);
