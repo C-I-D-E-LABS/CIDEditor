@@ -1,0 +1,65 @@
+# Menu.cide - the title menu, written in CideScript.
+#
+# How it gets entered: data/config/game.ini has  TitleState="Menu"  under [StateRedirects], so when
+# the game starts the engine runs this file (data/states/Menu.cide) as the state. From any other
+# script you can open it with  FlxG.switchState(ModState.new("Menu")).
+#
+# This script runs AS the state: add(), members, controls... are all right here.
+
+import funkin.menus.GamesMenu
+
+var options = ["Play", "Back to Games"]
+var items = []
+var selected = 0
+var title
+var time = 0.0
+
+func _ready():                       # _ready = create
+	FlxG.camera.bgColor = 0xFF101820
+
+	title = FlxText.new(0, 150, FlxG.width, "CIDESCRIPT PLATFORMER", 56)
+	title.alignment = "center"
+	title.color = 0xFFE8C170
+	add(title)
+
+	for i in range(len(options)):
+		var item = FlxText.new(0, 380 + i * 64, FlxG.width, options[i], 36)
+		item.alignment = "center"
+		items.push(item)
+		add(item)
+
+	var hint = FlxText.new(0, FlxG.height - 60, FlxG.width, "Up/Down to choose - Enter to pick", 18)
+	hint.alignment = "center"
+	hint.color = 0xFF8090A0
+	add(hint)
+
+	refresh()
+
+# redraws the options so the selected one stands out
+func refresh():
+	for i in range(len(items)):
+		var on = i == selected
+		items[i].text = ("> " + options[i] + " <") if on else options[i]
+		items[i].color = 0xFFFFD040 if on else 0xFF8090A0
+
+func _process(elapsed):              # _process = update
+	time += elapsed
+	title.y = 150 + sin(time * 2) * 8
+
+	if controls.UP_P:
+		selected = (selected - 1 + len(options)) % len(options)
+		refresh()
+	elif controls.DOWN_P:
+		selected = (selected + 1) % len(options)
+		refresh()
+	elif controls.ACCEPT:
+		match selected:
+			0: FlxG.switchState(ModState.new("Platformer"))
+			1: leave()
+	elif controls.BACK:
+		leave()
+
+func leave():
+	# a shipped game has no Games menu to go back to
+	if not Main.isReleaseShell:
+		FlxG.switchState(GamesMenu.new())

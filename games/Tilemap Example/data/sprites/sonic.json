@@ -1,0 +1,19 @@
+{
+	"image": "sprites/sonic_spr",
+	"type": "grid",
+	"frameWidth": 41,
+	"frameHeight": 43,
+	"hitbox": {"x": 11, "y": 11, "width": 12, "height": 29},
+	"animations": [
+		{"name": "idle", "frames": ["0"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": -2},
+		{"name": "run", "frames": ["8","9","10","11"], "fps": 12, "loop": true, "offsetX": -5, "offsetY": -2},
+		{"name": "walk", "frames": ["2","3","4","5","6","7"], "fps": 12, "loop": true, "offsetX": -5, "offsetY": -2},
+		{"name": "jump", "frames": ["16","17","18","19"], "fps": 12, "loop": true, "offsetX": -6, "offsetY": -2},
+		{"name": "fall", "frames": ["1"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": -2},
+		{"name": "up", "frames": ["12","13"], "fps": 12, "loop": false, "offsetX": -2, "offsetY": -2},
+		{"name": "down", "frames": ["14","15"], "fps": 12, "loop": false, "offsetX": -2, "offsetY": -2},
+		{"name": "skid", "frames": ["23","24"], "fps": 12, "loop": false, "offsetX": -9, "offsetY": -2},
+		{"name": "death", "frames": ["22"], "fps": 12, "loop": true, "offsetX": -5, "offsetY": 0},
+		{"name": "hurt", "frames": ["20","21"], "fps": 12, "loop": true, "offsetX": -4, "offsetY": -2}
+	]
+}

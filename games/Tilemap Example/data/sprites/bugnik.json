@@ -1,0 +1,10 @@
+{
+	"image": "sprites/bug",
+	"type": "grid",
+	"frameWidth": 47,
+	"frameHeight": 37,
+	"hitbox": {"x": 16, "y": 7, "width": 16, "height": 27},
+	"animations": [
+		{"name": "idle", "frames": ["0","1"], "fps": 3.4, "loop": true, "offsetX": 0, "offsetY": 0}
+	]
+}
