@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="lord/VoidFace" x="-20" camx="-100" camy="-50" scale="0.8" icon="LordXDeath" color="#384549" angleAmt="0" offAmt="0">
+	<anim name="idle" anim="idle instancia" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down instancia" x="40" y="-170" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left instancia" x="100" y="-40" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right instancia" x="-80" y="-5" fps="24" loop="false"/>
+	<anim name="singUP" anim="up instancia" x="-10" y="170" fps="24" loop="false"/>
+</character>

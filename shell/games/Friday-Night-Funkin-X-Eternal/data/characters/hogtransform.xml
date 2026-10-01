@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="transformation" icon="hogtransform" x="400" camx="-1000" camy="-1000" y="150" scale="1.35">
+	<anim name="idle" anim="hogTransform" x="639" y="826"/>
+</character>

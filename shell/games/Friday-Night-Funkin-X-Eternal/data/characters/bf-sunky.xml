@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bf&amp;gf/bf-sunky" flipX="true" isPlayer="true" icon="bf">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="singDOWNPOSE0" x="-30" y="-40" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="singDOWNmiss0" x="-35" y="-55" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="singLEFTPOSE0" x="45" y="3" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="singLEFTmiss0" x="35" y="-2" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="singRIGHTPOSE0" x="-55" y="60" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="singRIGHTmiss0" x="-50" y="32" fps="24" loop="false"/>
+	<anim name="singUP" anim="singUPPOSE0" x="0" y="90" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="singUPmiss0" x="-25" y="91" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,12 @@
+<menu name="X-Eternal Modifiers" desc="X-Eternal Game Settings">
+
+  
+
+    <checkbox id="pussyMode" name="Disable Phantom Notes" desc="When Checked removes phantom notes from You Can't Run and Triple Trouble"/>
+    <!-- <checkbox id="skipIntro" name="Skip Opening Videos" desc="When Checked game opens with title screen and no intros"/> -->
+    <checkbox id="modShaders" name="Mod Shaders" desc="When Checked, the game will use the mod's custom shaders. If Checked, this may cause performance issues on some devices."/>
+    <checkbox id="camFlashing" name="Camera Flashing" desc="When Checked, the camera will flash stuff on screen during certain events. This may cause discomfort for some players."/>
+
+
+
+</menu>

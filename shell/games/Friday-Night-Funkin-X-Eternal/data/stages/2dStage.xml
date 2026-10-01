@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="2dStage" zoom="1">
+	<sprite x="-71.596405845356" scroll="0.9" sprite="exe/tails-doll/2d/bg" y="-4.42877895396504" scale="2.15048631765354" name="bg"/>
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+</stage>

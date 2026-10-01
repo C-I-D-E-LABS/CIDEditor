@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="coldsteel/coldsteel_assets" color="#BF00FF">
+	<anim name="idle" anim="coldsteel idle0" loop="true"/>
+	<anim name="singDOWN" anim="coldsteel down0" x="-60" y="-130"/>
+	<anim name="singLEFT" anim="coldsteel right0" x="62" y="9"/>
+	<anim name="singRIGHT" anim="coldsteel left0" x="123" y="-72"/>
+	<anim name="singUP" anim="coldsteel up lol0" x="-145" y="-10"/>
+</character>

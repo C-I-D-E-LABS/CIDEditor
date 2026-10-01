@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MajinTrees.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MajinTrees0000" x="0" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0001" x="0" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0002" x="2187" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0003" x="2187" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0004" x="4374" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0005" x="4374" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0006" x="4374" y="0" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0007" x="0" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0008" x="0" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0009" x="0" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0010" x="2187" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0011" x="2187" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0012" x="2187" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0013" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0014" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0015" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0016" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0017" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0018" x="4374" y="1549" width="2130" height="1492"/>
+	<SubTexture name="MajinTrees0019" x="4374" y="1549" width="2130" height="1492"/>
+</TextureAtlas>

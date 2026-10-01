@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GFHogWeek.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Partner GF confirm0000" x="46" y="46" width="442" height="355"/>
+	<SubTexture name="Partner GF confirm0001" x="534" y="46" width="442" height="355"/>
+	<SubTexture name="Partner GF confirm0002" x="1022" y="46" width="437" height="353" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0003" x="1505" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0004" x="1988" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0005" x="2471" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0006" x="2954" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0007" x="3437" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0008" x="3437" y="46" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0009" x="46" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0010" x="529" y="447" width="442" height="354" frameX="0" frameY="0" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0011" x="1017" y="447" width="442" height="354" frameX="0" frameY="0" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0012" x="1505" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0013" x="1988" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0014" x="2471" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0015" x="2954" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0016" x="3437" y="447" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0017" x="46" y="847" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0018" x="529" y="847" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0019" x="1012" y="847" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0020" x="1012" y="847" width="437" height="352" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0021" x="1495" y="847" width="437" height="353" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0022" x="1978" y="847" width="437" height="353" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+	<SubTexture name="Partner GF confirm0023" x="1978" y="847" width="437" height="353" frameX="-1" frameY="-2" frameWidth="442" frameHeight="355"/>
+</TextureAtlas>

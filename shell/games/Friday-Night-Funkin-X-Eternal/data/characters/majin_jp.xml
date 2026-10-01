@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="majin/MajinJP_Final" icon="majinJP" color="#000080" zoomAmt="0.72">
+	<anim name="singDOWN" anim="down0" x="50" y="30" fps="24" loop="false"/>
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="215" y="55" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="-105" y="10" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="50" y="90" fps="24" loop="false"/>
+</character>

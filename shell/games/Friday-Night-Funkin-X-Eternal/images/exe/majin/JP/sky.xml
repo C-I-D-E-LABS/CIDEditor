@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sky.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sky instance 10000" x="4" y="4" width="1986" height="1100"/>
+	<SubTexture name="sky instance 10001" x="1990" y="4" width="1986" height="1100"/>
+	<SubTexture name="sky instance 10002" x="4" y="1104" width="1986" height="1100"/>
+	<SubTexture name="sky instance 10003" x="1990" y="1104" width="1986" height="1100"/>
+</TextureAtlas>

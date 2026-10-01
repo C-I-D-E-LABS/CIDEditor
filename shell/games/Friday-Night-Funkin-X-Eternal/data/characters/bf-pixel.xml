@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-200" y="466" sprite="bf&amp;gf/bf-pixel16bit" scale="6" antialiasing="false" flipX="true" camx="-25" camy="45" isPlayer="true" icon="bf-pixel16bit" color="#30B0D1" holdTime="5.4">
+	<anim name="idle" anim="idle" fps="16"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="singRIGHT" anim="right" x="-0.17"/>
+	<anim name="singLEFT" anim="left"/>
+</character>

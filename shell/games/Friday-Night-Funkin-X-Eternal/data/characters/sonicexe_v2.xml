@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="140" y="260" sprite="sonicexe/sonicexe_v2" scale="1.25" camy="130" icon="sonicexe">
+	<anim name="idle" anim="idle" loop="true"/>
+	<anim name="singDOWN" anim="down" x="-47" y="-124"/>
+	<anim name="singDOWN-alt" anim="laugh" x="-53.4" y="-224"/>
+	<anim name="singRIGHT" anim="right" x="-63" y="-27"/>
+	<anim name="singLEFT" anim="left" x="189" y="-37"/>
+	<anim name="singUP" anim="up" x="26" y="68"/>
+</character>

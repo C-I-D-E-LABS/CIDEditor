@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="bf&amp;gf/BoyFriend_AssetsDefault" flipX="true" isPlayer="true" icon="bf" color="#30B0D1">
+	<anim name="idle" anim="BF idle dance" x="-5"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="-45" y="29"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="4" y="-6"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-47" y="-5"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-15" y="-50"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-35" y="27"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="6" y="19"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-44" y="22"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-16" y="-19"/>
+	<anim name="hey" anim="BF HEY" x="-3" y="6"/>
+	<anim name="singDOWN-alt" anim="AltDown" x="-12" y="-65"/>
+	<anim name="singUP-alt" anim="AltUp" x="-60" y="44"/>
+	<anim name="singRIGHT-alt" anim="AltRight" x="-33" y="-30"/>
+	<anim name="singLEFT-alt" anim="AltLeft" x="24" y="-29"/>
+</character>

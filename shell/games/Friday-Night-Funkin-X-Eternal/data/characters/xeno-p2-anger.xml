@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="40" y="240" sprite="sonicexe/Xeno-p2-mad" camx="-325" camy="50" icon="ycr" color="#000064" holdTime="6.1">
+	<anim name="singLEFT" anim="madycrleft" x="296" y="-15"/>
+	<anim name="singUP" anim="madycrup" x="61" y="109"/>
+	<anim name="singRIGHT" anim="madycrright" x="113" y="35"/>
+	<anim name="scream" anim="scream" x="135" y="56"/>
+	<anim name="singDOWN" anim="madycrdown" x="130" y="-51" indices="0..2"/>
+	<anim name="idle" anim="madycridle" x="100" loop="true"/>
+	<anim name="singDOWN-alt" anim="laugh" x="-36" y="-104"/>
+	<anim name="just" anim="just" x="278" y="9"/>
+</character>

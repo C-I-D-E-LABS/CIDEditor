@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="chicken.png">
+<SubTexture name="chicken walk0000" x="231" y="0" width="110" height="187" frameX="-76" frameY="-45" frameWidth="250" frameHeight="250" />
+<SubTexture name="chicken walk0001" x="341" y="0" width="114" height="181" frameX="-74" frameY="-47" frameWidth="250" frameHeight="250" />
+<SubTexture name="chicken walk0002" x="114" y="197" width="118" height="173" frameX="-73" frameY="-49" frameWidth="250" frameHeight="250" />
+<SubTexture name="chicken walk0003" x="0" y="197" width="114" height="181" frameX="-74" frameY="-47" frameWidth="250" frameHeight="250" />
+<SubTexture name="chicken miss0000" x="0" y="0" width="231" height="197" frameX="-8" frameY="-24" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

@@ -1,0 +1,31 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/hog/" name="hog" zoom="0.68">
+<!-- Glitch layer -->
+<sprite name="glitchsky"      sprite="glitch/bg"            x="-294"                y="-153"                scrolly="0.9"              scalex="1.53"             scaley="1.78"             alpha="0"/>
+<sprite name="mountainsGlitch" sprite="glitch/mountains"    x="-374.24081616167"    y="-99.9023563343328"  scrolly="0.9"              scalex="1.4501693097429"  scaley="1.68381794036057" alpha="0"/>
+<sprite name="waterfallsGlitch" sprite="glitch/waterfalls"  x="-1066.31702602931"   y="195.309245876212"   type="none"                scale="1.02624029070809"                             alpha="0"/>
+<sprite name="glitchHills"     sprite="glitch/HillsandHills" x="-176.002653020403"  y="142.704853800327"   scrolly="0.9"                                                                    alpha="0"/>
+<sprite name="glitchTrees"     sprite="glitch/trees"        x="-597"                y="-125"                scrolly="0.9" scrollx="1.1" scale="1.12"                                        alpha="0"/>
+<sprite name="floorGlitch"     sprite="glitch/floor"        x="-221.322460039717"   y="730"                 scrolly="0.9" scrollx="1.1" scalex="1.64"             scaley="1.12"             alpha="0"/>
+
+<!-- Glitch End -->
+
+<!-- HOG layer -->
+<sprite name="hogBg"        sprite="bg"                   y="-300" scrolly="0.9" scrollx="1.1" scale="2"/>
+<sprite name="hogMotain"    sprite="motains"                       scrolly="0.9" scrollx="1.1" scale="1.5"/>
+<sprite name="hogWaterFalls" sprite="Waterfalls"           x="-1100" y="200"/>
+<sprite name="hogLoops"     sprite="HillsandHills"         x="-200"  y="170"  scrolly="0.9"/>
+<sprite name="hogTrees"     sprite="trees"                 x="-600"  y="-120" scrolly="0.9"/>
+<sprite name="hogFloor"     sprite="floor"                 x="-600"  y="750"  scrolly="0.9" scrollx="1.1" scale="1.25"/>
+
+<!-- Characters -->
+<girlfriend x="967" y="-100"/>
+<dad y="142"/>
+<boyfriend/>
+
+<!-- Overlays / foreground -->
+<sprite name="hogOverlay"  sprite="overlay"       x="-800"                y="-300"                scrolly="0.9" scrollx="1.1" scale="1.25"/>
+<sprite name="glitchOv"    sprite="glitch/overlay" x="-843.252865503801"  y="-603.967391168747" type="none"   scale="1.27131321656603" scaley="1.39071733113518" alpha="0"/>
+<sprite name="rocksGlitch" sprite="glitch/rocks"   x="-511.59294541975"   y="690.161230019859"  scrolly="0.9" scrollx="1.1" scalex="1.5" scaley="1.5" alpha="0"/>
+<sprite name="hogRocks"    sprite="rocks"          x="-500"               y="600"                scrolly="0.9" scrollx="1.1" scale="1.25"/>
+</stage>

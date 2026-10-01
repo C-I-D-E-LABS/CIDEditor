@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-splashes>
+<splashes sprite="game/splashes/hitmarker" alpha="0.6">
+	<strum id="0"> <!-- LEFT -->
+		<anim name="splashleft" anim="hit" fps="24" x="-1" y="14" />
+	</strum>
+	<strum id="1"> <!-- DOWN -->
+		<anim name="splashdown" anim="hit" fps="24" x="-1" y="14" />
+	</strum>
+	<strum id="2"> <!-- UP -->
+		<anim name="splashup" anim="hit" fps="24" x="-1" y="14" />
+	</strum>
+	<strum id="3"> <!-- RIGHT -->
+		<anim name="splashright" anim="hit" fps="24" x="-1" y="14" />
+	</strum>
+</splashes>

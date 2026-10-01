@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="emerald.png">
+<SubTexture name="emerald idle0000" x="1016" y="1631" width="1016" height="533" frameX="-788" frameY="-331" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0001" x="0" y="2165" width="1016" height="532" frameX="-788" frameY="-332" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0002" x="1016" y="2165" width="1016" height="532" frameX="-788" frameY="-332" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0003" x="3048" y="0" width="1016" height="531" frameX="-788" frameY="-335" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0004" x="3048" y="1061" width="1016" height="529" frameX="-788" frameY="-339" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0005" x="1016" y="2697" width="1016" height="527" frameX="-788" frameY="-346" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0006" x="0" y="3225" width="1016" height="522" frameX="-788" frameY="-357" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0007" x="3048" y="3225" width="1016" height="518" frameX="-788" frameY="-371" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0008" x="4064" y="0" width="1016" height="518" frameX="-788" frameY="-382" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0009" x="2032" y="3225" width="1016" height="520" frameX="-788" frameY="-390" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0010" x="1016" y="3225" width="1016" height="522" frameX="-788" frameY="-394" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0011" x="3048" y="2697" width="1016" height="525" frameX="-788" frameY="-396" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0012" x="2032" y="2697" width="1016" height="527" frameX="-788" frameY="-397" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0013" x="3048" y="2119" width="1016" height="528" frameX="-788" frameY="-397" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0014" x="0" y="2697" width="1016" height="528" frameX="-788" frameY="-397" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0015" x="3048" y="1590" width="1016" height="529" frameX="-788" frameY="-397" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0016" x="3048" y="531" width="1016" height="530" frameX="-788" frameY="-395" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0017" x="2032" y="2165" width="1016" height="532" frameX="-788" frameY="-393" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0018" x="2032" y="537" width="1016" height="535" frameX="-788" frameY="-389" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0019" x="1016" y="1091" width="1016" height="538" frameX="-788" frameY="-383" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0020" x="1016" y="547" width="1016" height="541" frameX="-788" frameY="-375" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0021" x="1016" y="0" width="1016" height="546" frameX="-788" frameY="-364" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0022" x="0" y="0" width="1016" height="547" frameX="-788" frameY="-353" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0023" x="0" y="547" width="1016" height="544" frameX="-788" frameY="-345" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0024" x="0" y="1091" width="1016" height="540" frameX="-788" frameY="-339" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0025" x="2032" y="0" width="1016" height="537" frameX="-788" frameY="-336" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0026" x="2032" y="1072" width="1016" height="535" frameX="-788" frameY="-333" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0027" x="0" y="1631" width="1016" height="534" frameX="-788" frameY="-332" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0028" x="2032" y="1631" width="1016" height="533" frameX="-788" frameY="-331" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0029" x="1016" y="1631" width="1016" height="533" frameX="-788" frameY="-331" frameWidth="3083" frameHeight="1658" />
+<SubTexture name="emerald idle0030" x="1016" y="1631" width="1016" height="533" frameX="-788" frameY="-331" frameWidth="3083" frameHeight="1658" />
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="majin/Majin_Default_Mix" camx="-225" camy="50" icon="majin" color="#0000FF" zoomAmt="0.6" offAmt="30" angleAmt="0">
+	<anim name="danceLeft" anim="Majin_IDLE" indices="0..10"/>
+	<anim name="danceRight" anim="Majin_IDLE" indices="11..20"/>
+	<anim name="singLEFT" anim="MAJIN_LEFT0" x="280" y="-35"/>
+	<anim name="singDOWN" anim="Majin_DOWN0" x="190"/>
+	<anim name="singRIGHT" anim="Majin_RIGHT0" x="-105" y="25"/>
+	<anim name="singUP" anim="Majin_UP0" x="20" y="120"/>
+</character>

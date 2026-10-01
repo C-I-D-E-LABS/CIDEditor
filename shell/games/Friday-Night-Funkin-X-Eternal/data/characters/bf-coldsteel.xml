@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character y="230" sprite="coldsteel/keith" flipX="true" camx="225" isPlayer="true" icon="bf" color="#31B0D1">
+	<anim name="idle" anim="keith idle" x="20" y="15" loop="true"/>
+	<anim name="singLEFT" anim="keith right" x="45" y="15"/>
+	<anim name="singDOWN" anim="keith down" x="23" y="14"/>
+	<anim name="singRIGHT" anim="keith left" x="-15" y="11"/>
+	<anim name="singUP" anim="keith up" x="-4" y="16"/>
+	<anim name="fuck you" anim="keith cool" x="14" y="7"/>
+	<anim name="singDOWN-alt" anim="keith dab" x="22" y="1"/>
+</character>

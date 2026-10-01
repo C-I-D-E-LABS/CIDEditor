@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="RedGloveX.png">
+<SubTexture name="RedGloveX idle0000" x="359" y="133" width="148" height="131" frameX="-95" frameY="-35" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX idle0001" x="308" y="316" width="168" height="129" frameX="-85" frameY="-45" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX idle0002" x="0" y="448" width="168" height="128" frameX="-86" frameY="-43" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX idle0003" x="0" y="316" width="160" height="132" frameX="-90" frameY="-37" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX idle0004" x="359" y="0" width="151" height="133" frameX="-94" frameY="-34" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX idle0005" x="160" y="316" width="148" height="131" frameX="-95" frameY="-35" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX left0000" x="337" y="448" width="165" height="112" frameX="-79" frameY="-56" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX left0001" x="168" y="448" width="169" height="116" frameX="-85" frameY="-54" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX down0000" x="190" y="0" width="169" height="154" frameX="-58" frameY="-47" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX down0001" x="174" y="166" width="172" height="149" frameX="-58" frameY="-39" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX up0000" x="0" y="0" width="190" height="166" frameX="-92" frameY="0" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX up0001" x="0" y="166" width="174" height="150" frameX="-90" frameY="-13" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX right0000" x="510" y="0" width="156" height="129" frameX="-115" frameY="-39" frameWidth="322" frameHeight="210" />
+<SubTexture name="RedGloveX right0001" x="510" y="129" width="151" height="127" frameX="-93" frameY="-38" frameWidth="322" frameHeight="210" />
+</TextureAtlas>

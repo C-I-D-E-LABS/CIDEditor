@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="sonic/Prey Intro" icon="sonic" color="#6c6cec" x="150" y="13" flipX="true" antialiasing="false" camx="-370" camy="520" holdTime="6.1" scale="1.6">
+	<anim name="looks" anim="looking" x="-150" y="-271.875"/>
+	<anim name="huh" anim="huh" x="-150" y="-271.875"/>
+	<anim name="idle" anim="idle" x="-150" y="-271.875" fps="41" loop="true"/>
+</character>

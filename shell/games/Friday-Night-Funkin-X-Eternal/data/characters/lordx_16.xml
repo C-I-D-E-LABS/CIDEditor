@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="lordx/lordx_16bit" camx="104" camy="32" y="24" x="-160" antialiasing="false" icon="lordx_16">
+	<anim name="idle" anim="idle"/>
+	<anim name="idle-alt" anim="fakeout"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singRIGHT" anim="right"/>
+	<anim name="singLEFT" anim="left" x="1"/>
+	<anim name="singUP" anim="up" x="4"/>
+</character>

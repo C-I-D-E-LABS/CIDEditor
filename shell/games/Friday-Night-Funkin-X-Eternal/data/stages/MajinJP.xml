@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" folder="exe/majin/" startCamPosY="300" startCamPosX="500">
+    <sprite name="jpSky" sprite="JP/sky" scroll="0.8" scale="1.2" x="-250" y="-240">
+		<anim name="idle" anim="sky instance 1" scroll="1" fps="24" loop="true"/>
+	</sprite>
+
+	<sprite name="jpPill1"	x="-250" y="-300"   sprite="JP/pillers-back" antialiasing="false"   scale="1.2"   scroll="0.8"/>
+
+	<sprite name="jpBushR"	x="0" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.76"/>
+	<sprite name="jpBush"	x="-350" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.8"/>
+	<sprite name="jpBushL"	x="-700" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.76"/>
+
+	<sprite name="jpFloor"	x="-300" y="700"   sprite="JP/floor" antialiasing="false" scalex="1.6"     scroll="0.9"/>
+	
+	<sprite name="jpPill2" sprite="JP/trees_front" scroll="0.88" x="0" y="-90" type="onbeat">
+		<anim name="idle" anim="trees mazins front instance 1" scroll="1" fps="24" loop="false"/>
+	</sprite>
+</stage>

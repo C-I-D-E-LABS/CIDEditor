@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="HillsandHills.png"><SubTexture name="HillsandHills DumbassMF0000" x="0" y="0" width="2086" height="962" frameX="0" frameY="-73" frameWidth="2086" frameHeight="1035" />
+<SubTexture name="HillsandHills DumbassMF0001" x="0" y="962" width="2086" height="962" frameX="0" frameY="-73" frameWidth="2086" frameHeight="1035" />
+<SubTexture name="HillsandHills DumbassMF0002" x="2086" y="0" width="2086" height="962" frameX="0" frameY="-73" frameWidth="2086" frameHeight="1035" />
+<SubTexture name="HillsandHills DumbassMF0003" x="2086" y="962" width="2086" height="962" frameX="0" frameY="-73" frameWidth="2086" frameHeight="1035" />
+<SubTexture name="HillsandHills DumbassMF0004" x="0" y="1924" width="2086" height="962" frameX="0" frameY="-73" frameWidth="2086" frameHeight="1035" />
+</TextureAtlas>

@@ -1,0 +1,80 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.4" name="MajinEncore" folder="exe/majin/" startCamPosY="300" startCamPosX="500">
+
+	<sprite name="dfSky"	x="-550" y="-400"   sprite="Default/sonicFUNsky" antialiasing="false" scroll="0.82"/>	
+	<sprite name="dfBushBACK"	x="-780" y="-200"   sprite="Default/OuterBush" scale="1.2" updateHitbox="true" antialiasing="false" scroll="0.7"/>
+	<sprite name="dfBush"	x="-500" y="300"   sprite="Default/Bush" antialiasing="false" scroll="0.88" alpha="1"/>
+
+	<sprite name="dfMajinsL" x="-1200" y="-640" sprite="Default/MajinTrees"	type="onbeat">
+		<anim name="idle" anim="MajinTrees" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="dfMajinsR" x="600" y="-640" sprite="Default/MajinTrees" flipX="true" type="onbeat">
+		<anim name="idle" anim="MajinTrees" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="dfBushUP"	x="-560" y="-400"   sprite="Default/OuterBushUp" scale="1.2" updateHitbox="true" antialiasing="false" scroll="0.8"/>
+	<sprite name="dfFloor"	x="-600" y="450"   sprite="Default/floor BG" antialiasing="false" scroll="1"/>
+
+	<sprite name="usSky"	x="-450" y="-500"   sprite="US/Sky" antialiasing="false" scale="0.8" updateHitbox="true" scroll="0.8"/>
+	<sprite name="usBushes"	x="-350" y="-600"   sprite="US/Bushes" antialiasing="false" scale="0.8" updateHitbox="true" scroll="0.85"/>
+	
+
+	<sprite name="usMajinsL1" x="880" y="70" sprite="US/MajinTree" scale="2" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="animatedVer" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="usMajinsL2" x="1760" y="-40" sprite="US/MajinTree" scale="2" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="animatedVer" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="usMajinsR1" x="270" y="70" flipX="true" sprite="US/MajinTree" scale="2" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="animatedVer" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="usMajinsR2" x="-180" y="-40" flipX="true" sprite="US/MajinTree" scale="2" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="animatedVer" scroll="1" fps="24" loop="false"/>
+	</sprite>
+	
+	<sprite name="usFloor"	x="-300" y="-500"   sprite="US/Floor" antialiasing="false" scale="0.8" updateHitbox="true" scroll="1"/>
+	<sprite name="usTrees"	x="-300" y="-500"   sprite="US/Trees" antialiasing="false" scale="0.8" updateHitbox="true" scroll="1"/>
+
+	
+
+	<sprite name="jpSky" sprite="JP/sky" scroll="0.8" scale="1.2" x="-250" y="-240">
+		<anim name="idle" anim="sky instance 1" scroll="1" fps="24" loop="true"/>
+	</sprite>
+
+	<sprite name="jpPill1"	x="-250" y="-300"   sprite="JP/pillers-back" antialiasing="false"   scale="1.2"   scroll="0.8"/>
+
+	<sprite name="jpBushR"	x="0" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.76"/>
+	<sprite name="jpBush"	x="-350" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.8"/>
+	<sprite name="jpBushL"	x="-700" y="250"   sprite="JP/bushes" antialiasing="false"      scroll="0.76"/>
+
+	<sprite name="jpFloor"	x="-300" y="700"   sprite="JP/floor" antialiasing="false" scalex="1.6"     scroll="0.9"/>
+	
+	<sprite name="jpPill2" sprite="JP/trees_front" scroll="0.88" x="0" y="-90" type="onbeat">
+		<anim name="idle" anim="trees mazins front instance 1" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<!-- ENCORE STAGE -->
+	<sprite name="screen"	x="-700" y="-500"   sprite="Encore/majin screen" antialiasing="false"      scroll="0.9" scale="1.2" updateHitbox="true"/>
+	<sprite name="floorD"	x="-700" y="-500"    sprite="Encore/floorD"      scroll="1" scale="1.2" updateHitbox="true"/>
+	<!-- <sprite name="floor"	x="-700" y="-500"    sprite="Encore/floor"      scroll="1" scale="1.2" updateHitbox="true"/> -->
+	<sprite name="jTxt"		x="-700" y="-500"    sprite="Encore/majin text"   antialiasing="false"   scroll="1" scale="1.2" updateHitbox="true"/>
+	<sprite name="light1"	x="-900" y="-650"    sprite="Encore/stagelights"      scroll="1" scale="1.4" updateHitbox="true"/>
+	
+	<dad x="-200" camyoffset="-50"/>
+	<boyfriend x="1080" camxoffset="-100" camyoffset="0"/>
+
+	<sprite name="usFGMajins1" x="1350" y="650" sprite="US/majin FG1" scale="1" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="majin front bopper1" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<sprite name="usFGMajins2" x="-300" y="650" sprite="US/majin FG2" scale="1" updateHitbox="true" type="onbeat">
+		<anim name="idle" anim="majin front bopper2" scroll="1" fps="24" loop="false"/>
+	</sprite>
+
+	<!-- ENCORE STAGE -->
+	<sprite name="light2"	x="-900" y="-650"    sprite="Encore/lighting"      scroll="1" scale="1.4" updateHitbox="true" alpha="0.6"/>
+</stage>

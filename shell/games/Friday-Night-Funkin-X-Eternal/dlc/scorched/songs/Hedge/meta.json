@@ -1,0 +1,23 @@
+{
+	"creditData": {
+		"endTime": 5,
+		"text": "CREDITS\n\nCODE\nLoxTheBlox\nRedDoesStuff\nThe Devious One\n\nARTWORK\nJack Gore\nSammyPhox\nRedWave\n\nMUSIC\nArmydillo\n\nCHARTING\nWilde",
+		"size": 28,
+		"time": 3
+	},
+	"customValues": {
+		"character": "hog"
+	},
+	"color": "#000000",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "hog",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Hedge",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 140
+}

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lord_X.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lord X Down0000" x="0" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0001" x="0" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0002" x="558" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0003" x="558" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0004" x="1116" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0005" x="1116" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0006" x="1674" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0007" x="1674" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0008" x="2232" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Down0009" x="2232" y="0" width="558" height="485"/>
+	<SubTexture name="Lord X Idle0000" x="2790" y="0" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0001" x="2790" y="0" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0002" x="3324" y="0" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0003" x="3324" y="0" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0004" x="0" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0005" x="0" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0006" x="534" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0007" x="534" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0008" x="1068" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0009" x="1068" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0010" x="1068" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0011" x="1602" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0012" x="1602" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0013" x="1602" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0014" x="2136" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0015" x="2136" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0016" x="2136" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0017" x="2670" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0018" x="2670" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Idle0019" x="2670" y="594" width="534" height="594"/>
+	<SubTexture name="Lord X Laugh0000" x="3204" y="594" width="512" height="500" frameX="0" frameY="-17" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0001" x="3204" y="594" width="512" height="500" frameX="0" frameY="-17" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0002" x="0" y="1188" width="514" height="508" frameX="0" frameY="-10" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0003" x="0" y="1188" width="514" height="508" frameX="0" frameY="-10" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0004" x="514" y="1188" width="514" height="515" frameX="-1" frameY="-4" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0005" x="514" y="1188" width="514" height="515" frameX="-1" frameY="-4" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0006" x="1028" y="1188" width="511" height="519" frameX="-3" frameY="0" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0007" x="1028" y="1188" width="511" height="519" frameX="-3" frameY="0" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0008" x="1539" y="1188" width="508" height="518" frameX="-4" frameY="-1" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Laugh0009" x="1539" y="1188" width="508" height="518" frameX="-4" frameY="-1" frameWidth="515" frameHeight="519"/>
+	<SubTexture name="Lord X Left0000" x="2047" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0001" x="2047" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0002" x="2684" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0003" x="2684" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0004" x="3321" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0005" x="3321" y="1188" width="637" height="578"/>
+	<SubTexture name="Lord X Left0006" x="0" y="1766" width="637" height="578"/>
+	<SubTexture name="Lord X Left0007" x="0" y="1766" width="637" height="578"/>
+	<SubTexture name="Lord X Left0008" x="637" y="1766" width="637" height="578"/>
+	<SubTexture name="Lord X Left0009" x="637" y="1766" width="637" height="578"/>
+	<SubTexture name="Lord X Right0000" x="1274" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0001" x="1274" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0002" x="2007" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0003" x="2007" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0004" x="2740" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0005" x="2740" y="1766" width="733" height="569"/>
+	<SubTexture name="Lord X Right0006" x="0" y="2344" width="733" height="569"/>
+	<SubTexture name="Lord X Right0007" x="0" y="2344" width="733" height="569"/>
+	<SubTexture name="Lord X Right0008" x="733" y="2344" width="733" height="569"/>
+	<SubTexture name="Lord X Right0009" x="733" y="2344" width="733" height="569"/>
+	<SubTexture name="Lord X Up0000" x="1466" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0001" x="1466" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0002" x="2139" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0003" x="2139" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0004" x="2812" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0005" x="2812" y="2344" width="673" height="679"/>
+	<SubTexture name="Lord X Up0006" x="0" y="3023" width="673" height="679"/>
+	<SubTexture name="Lord X Up0007" x="0" y="3023" width="673" height="679"/>
+	<SubTexture name="Lord X Up0008" x="673" y="3023" width="673" height="679"/>
+	<SubTexture name="Lord X Up0009" x="673" y="3023" width="673" height="679"/>
+</TextureAtlas>

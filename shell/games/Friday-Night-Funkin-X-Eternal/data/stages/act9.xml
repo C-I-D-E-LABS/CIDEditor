@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/sally/" name="act9" zoom="2.4">
+	<sprite x="-46.7520656136995" sprite="sky" y="-215.8" type="none" scalex="1.80932784636488" scrollx="1.1" name="sky"/>
+	<sprite x="-419" sprite="Fire" y="78" type="none" alpha="0" name="fireback"/>
+	<sprite x="-25.9639613777592" sprite="mounts" y="-84.878223712001" type="none" scale="0.9" scrollx="1.2" name="mounts"/>
+	<sprite x="-67.7096158059811" sprite="water" y="284.143791511293" type="none" scalex="1.32777145045137" scrollx="1.15" scaley="0.937313366275016" name="water"/>
+	<sprite x="975.969764565747" sprite="pills" y="322.203119260092" type="none" name="pillar1"/>
+	<sprite x="-772.753034366525" sprite="floor" y="363.078362240486" type="none" scale="0.90168547574667" name="floor"/>
+	<dad scale="0.5" y="-50"/>
+	<boyfriend scale="0.45" x="650"/>
+	<sprite x="-766.854815558232" sprite="rocks" y="202.6792979094" type="none" scalex="0.874880487777427" scrollx="0.75" scaley="1.15096083125938" name="rocks"/>
+	<girlfriend/>
+	<sprite x="-400" sprite="Fire" y="559" type="none" alpha="0" name="firefront"/>
+</stage>

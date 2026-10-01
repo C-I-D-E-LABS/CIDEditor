@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="15" y="-278" scale="1" camx="-1000" camy="-640" icon="scorched" color="#343871" holdTime="6.1" >
+	<anim name="idle" anim="IdlePose" x="682.22" y="17.78"/>
+	<anim name="singUP" anim="UpPose" x="67.22" y="-8.89"/>
+	<anim name="singLEFT" anim="LeftPose" x="979.11" y="71"/>
+	<anim name="singRIGHT" anim="RightPose" x="824.44" y="7.22"/>
+	<anim name="singDOWN" anim="DownPose" x="583.33" y="-290"/>
+</character>

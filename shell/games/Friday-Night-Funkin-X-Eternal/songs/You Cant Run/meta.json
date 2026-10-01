@@ -1,0 +1,16 @@
+{
+	"color": "#000000",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "ycr",
+	"difficulties": [
+		"HARD",
+		"NORMAL"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "You Cant Run",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 140
+}

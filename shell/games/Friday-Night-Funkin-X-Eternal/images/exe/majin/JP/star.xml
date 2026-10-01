@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="star.png"> --> he created him
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="star0000" x="0" y="0" width="103" height="201"/>
+	<SubTexture name="star0001" x="103" y="0" width="90" height="147" frameX="-6" frameY="-27" frameWidth="103" frameHeight="201"/>
+	<SubTexture name="star0002" x="193" y="0" width="65" height="107" frameX="-19" frameY="-47" frameWidth="103" frameHeight="201"/>
+	<SubTexture name="star0003" x="258" y="0" width="90" height="145" frameX="-6" frameY="-27" frameWidth="103" frameHeight="201"/>
+</TextureAtlas>

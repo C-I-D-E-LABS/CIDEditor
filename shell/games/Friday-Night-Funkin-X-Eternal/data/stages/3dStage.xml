@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="3dStage" zoom="0.5">
+	<sprite name="bganims" x="400" y="200" sprite="exe/tails-doll/bg-anims" scale="2.3" antialiasing="true">
+		<anim name="play" anim="light off" fps="24" loop="false"/>
+	</sprite>
+</stage>

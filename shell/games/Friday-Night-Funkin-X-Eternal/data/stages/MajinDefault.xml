@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="500" startCamPosY="300" folder="exe/majin/" zoom="0.4" name="MajinEncore">
+	<sprite antialiasing="false" x="-550" scroll="0.82" sprite="Default/sonicFUNsky" y="-400" name="dfSky"/>
+	<sprite antialiasing="false" x="-780" updateHitbox="true" scroll="0.7" sprite="Default/OuterBush" y="-200" scale="1.2" name="dfBushBACK"/>
+	<sprite antialiasing="false" x="-500" scroll="0.88" sprite="Default/Bush" y="300" name="dfBush"/>
+	<sprite x="-390.737758187812" updateHitbox="true" y="-578.413723135004" name="dfBushUP" antialiasing="false" sprite="Default/OuterBushUp" scroll="0.8" scalex="1.0413012456103" scaley="1.12567455531233"/>
+	<sprite x="-1200" sprite="Default/MajinTrees" y="-640" type="beat" name="dfMajinsL"/>
+	<sprite x="600" sprite="Default/MajinTrees" y="-640" type="beat" name="dfMajinsR" flipX="true"/>
+	<sprite antialiasing="false" x="-628.284271247462" sprite="Default/floor BG" y="541.923881554251" name="dfFloor"/>
+	<girlfriend/>
+	<dad  x="400"/>
+	<boyfriend x="1000" camx="-600"/>
+	<sprite scrolly="1.08" x="-470.159992311072" sprite="Default/treesFg" y="-478" type="none" scale="1.18" scrollx="1.12" name="fg"/>
+</stage>

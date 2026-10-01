@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/Void/" name="Throne" zoom="0.2">
+	<sprite scrolly="0.9" sprite="theVoid" type="none" scale="1.5" name="bg" scrollx="1.2"/>
+	<sprite x="3" sprite="throne" type="none" skewx="-2.72848410531878e-14" name="throne"/>
+	<sprite x="924" sprite="torch" y="1618" scale="2.45486592695187" name="torch"/>
+	<sprite x="6637" sprite="torch" y="1685" scale="2.45" name="torch2"/>
+	<sprite antialiasing="false" x="3817.5" sprite="darklightbg" y="1471" type="none" scale="3" name="darkness"/>
+	<sprite antialiasing="false" x="3743" sprite="bluefirebg" y="1906" scale="2" name="fire"/>
+	<sprite antialiasing="false" x="3817.5" sprite="darklight" y="1687.5" type="none" scale="2" name="floorpix"/>
+	<girlfriend alpha="0.0001" x="3420" y="1470"/>
+	<dad camxoffset="-190" x="3951" camyoffset="-190" y="1768" scale="2.35"/>
+	<boyfriend scale="2.04368932038835" x="3823.95631067961" y="1345"/>
+</stage>

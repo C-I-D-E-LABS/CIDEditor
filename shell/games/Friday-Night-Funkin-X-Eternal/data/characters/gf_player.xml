@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bf&amp;gf/gf_chibi" flipX="true" camy="100" isPlayer="true" icon="gf" color="#A5004D">
+	<anim name="singDOWN" anim="GFdown" x="28" y="-22"/>
+	<anim name="singRIGHT" anim="GFright" x="-72" y="-40"/>
+	<anim name="singLEFT" anim="GFleft" x="76" y="-18"/>
+	<anim name="singUP" anim="GFup" x="24" y="34"/>
+	<anim name="hey" anim="hey"/>
+	<anim name="gf hit" anim="gf hit" x="32" y="-35"/>
+	<anim name="singUPmiss" anim="upMISS" x="36" y="66"/>
+	<anim name="gf dodge" anim="gf dodge" x="22" y="-16"/>
+	<anim name="singDOWNmiss" anim="downMISS" x="36" y="-14"/>
+	<anim name="deathLoop" anim="deathLoop" x="29" y="-6"/>
+	<anim name="gf attack" anim="gf attack" x="383" y="-40"/>
+	<anim name="singLEFTmiss" anim="left MISS" x="86" y="-14"/>
+	<anim name="singRIGHTmiss" anim="rightMISS" x="-68" y="-40"/>
+	<anim name="firstDeath" anim="firstDeath" x="64" y="-6"/>
+	<anim name="danceLeft" anim="gfDanceLeft"/>
+	<anim name="danceRight" anim="gfDanceRight"/>
+	<anim name="deathConfirm" anim="deathConfirm" x="30" y="-5"/>
+	<anim name="gf pre attack" anim="gf pre attack" x="57" y="-43"/>
+</character>

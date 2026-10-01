@@ -1,0 +1,15 @@
+{
+	"color": "#FFFFFF",
+	"customValues": {},
+	"opponentModeAllowed": true,
+	"icon": "xeno",
+	"difficulties": [
+		"HARD"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Triple Trouble",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 146
+}

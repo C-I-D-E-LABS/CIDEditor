@@ -1,0 +1,18 @@
+{
+	"customValues": {
+		"songName": "Soulless",
+		"character": "tailsdoll"
+	},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"icon": "taildoll",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Soulless",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 180
+}

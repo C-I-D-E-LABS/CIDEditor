@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="bf&amp;gf/Boyfriend_AssetsUS" flipX="true" isPlayer="true" icon="bf" color="#30B0D1" offAmt="20" zoomAmt="0.74" angleAmt="2" noteSkin="Majin_assets">
+	<anim name="idle" anim="BF idle dance" x="-5"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="-46" y="27"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="4" y="-7"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-48" y="-5"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-17" y="-50"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-35" y="27"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="6" y="19"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-44" y="22"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-16" y="-19"/>
+	<anim name="singDOWN-alt" anim="AltDown" x="-1" y="-67"/>
+	<anim name="singUP-alt" anim="AltUp" x="-80" y="46"/>
+	<anim name="singRIGHT-alt" anim="AltRight" x="-29" y="-32"/>
+	<anim name="singLEFT-alt" anim="AltLeft" x="31" y="-24"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="makoto_assets_tv" icon="makoto_tv" zoomAmt="1.2" camy="300">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down" x="52" y="-196"/>
+	<anim name="singRIGHT" anim="right" x="-94" y="-44"/>
+	<anim name="singLEFT" anim="left" x="83" y="-68"/>
+	<anim name="singUP" anim="up" x="-125" y="70"/>
+</character>

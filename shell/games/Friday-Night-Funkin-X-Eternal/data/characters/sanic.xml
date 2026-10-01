@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sanic/sanic" camx="200" color="#2B2F97">
+	<anim name="singDOWN" anim="sanic down0" x="35" y="-45"/>
+	<anim name="idle" anim="sanic idle0"/>
+	<anim name="singLEFT" anim="sanic left0" y="-95"/>
+	<anim name="singRIGHT" anim="sanic right0" x="65" y="-35"/>
+	<anim name="singUP" anim="sanic up0" x="15" y="25"/>
+</character>

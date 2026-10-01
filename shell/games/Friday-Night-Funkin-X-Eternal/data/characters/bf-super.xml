@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="1880" y="1050" sprite="bf&amp;gf/BoyFriend_Super" flipX="true" camx="-125" camy="50" isPlayer="true" icon="bf" color="#30B0D1" fliped="true">
+	<anim name="idle" anim="BF idle dance" loop="true"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" loop="true"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-18" y="-1" loop="true"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" loop="true"/>
+	<anim name="singUP" anim="BF NOTE UP0" loop="true"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-88" y="-235"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-54" y="-321"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="-42" y="-281"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-84" y="-279"/>
+</character>

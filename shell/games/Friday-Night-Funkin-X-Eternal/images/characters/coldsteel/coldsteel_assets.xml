@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Coldsteel_ASSETS.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="coldsteel down0000" x="0" y="0" width="485" height="456" frameX="-2" frameY="-8" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel down0001" x="0" y="0" width="485" height="456" frameX="-2" frameY="-8" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel down0002" x="485" y="0" width="482" height="465" frameX="0" frameY="0" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel down0003" x="485" y="0" width="482" height="465" frameX="0" frameY="0" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel down0004" x="485" y="0" width="482" height="465" frameX="0" frameY="0" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel down0005" x="485" y="0" width="482" height="465" frameX="0" frameY="0" frameWidth="487" frameHeight="465"/>
+	<SubTexture name="coldsteel idle0000" x="967" y="0" width="518" height="596"/>
+	<SubTexture name="coldsteel idle0001" x="1485" y="0" width="518" height="596"/>
+	<SubTexture name="coldsteel left0000" x="0" y="596" width="685" height="520" frameX="0" frameY="-4" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel left0001" x="0" y="596" width="685" height="520" frameX="0" frameY="-4" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel left0002" x="685" y="596" width="667" height="524" frameX="-23" frameY="0" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel left0003" x="685" y="596" width="667" height="524" frameX="-23" frameY="0" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel left0004" x="685" y="596" width="667" height="524" frameX="-23" frameY="0" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel left0005" x="685" y="596" width="667" height="524" frameX="-23" frameY="0" frameWidth="690" frameHeight="524"/>
+	<SubTexture name="coldsteel right0000" x="1352" y="596" width="484" height="597" frameX="-3" frameY="0" frameWidth="490" frameHeight="597"/>
+	<SubTexture name="coldsteel right0001" x="1352" y="596" width="484" height="597" frameX="-3" frameY="0" frameWidth="490" frameHeight="597"/>
+	<SubTexture name="coldsteel right0002" x="0" y="1193" width="490" height="586" frameX="0" frameY="-11" frameWidth="490" frameHeight="597"/>
+	<SubTexture name="coldsteel right0003" x="0" y="1193" width="490" height="586" frameX="0" frameY="-11" frameWidth="490" frameHeight="597"/>
+	<SubTexture name="coldsteel up lol0000" x="490" y="1193" width="307" height="589" frameX="-3" frameY="0" frameWidth="313" frameHeight="589"/>
+	<SubTexture name="coldsteel up lol0001" x="490" y="1193" width="307" height="589" frameX="-3" frameY="0" frameWidth="313" frameHeight="589"/>
+	<SubTexture name="coldsteel up lol0002" x="797" y="1193" width="313" height="583" frameX="0" frameY="-3" frameWidth="313" frameHeight="589"/>
+	<SubTexture name="coldsteel up lol0003" x="797" y="1193" width="313" height="583" frameX="0" frameY="-3" frameWidth="313" frameHeight="589"/>
+	<SubTexture name="coldsteel up lol0004" x="797" y="1193" width="313" height="583" frameX="0" frameY="-3" frameWidth="313" frameHeight="589"/>
+	<SubTexture name="coldsteel up lol0005" x="797" y="1193" width="313" height="583" frameX="0" frameY="-3" frameWidth="313" frameHeight="589"/>
+</TextureAtlas>

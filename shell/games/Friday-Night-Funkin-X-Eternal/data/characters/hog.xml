@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="121" y="275" camx="60" camy="205" icon="hog" color="#192CA6">
+	<anim name="idle" anim="HogIdle"/>
+	<anim name="singDOWN" anim="HogDown" x="24" y="9"/>
+	<anim name="singRIGHT" anim="HogRight" x="-19" y="21"/>
+	<anim name="singLEFT" anim="HogLeft" x="-24" y="2"/>
+	<anim name="singUP" anim="HogUp" x="-3" y="-4"/>
+	<anim name="spin" anim="Getfucked" x="-200" y="-154"/>
+	<anim name="giggle" anim="Laugh" x="-181" y="-164"/>
+	<anim name="good job" anim="Good Job" x="-195" y="-133"/>
+</character>

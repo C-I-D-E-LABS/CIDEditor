@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="sunkStage" zoom="0.8">
+	<sprite x="52.4999999999996" scroll="0.9" sprite="exe/sunky/sunky BG" y="-568.898176291793" scale="1.22036474164134" name="bg"/>
+	<sprite x="-536.878937661124" sprite="exe/sunky/stage" y="568.630399287467" scale="1.30828250737197" name="floor"/>
+	<sprite x="869" sprite="exe/sunky/hang" y="-500" name="disco"/>
+	<sprite x="-42.4644660940673" sprite="exe/sunky/speakers" y="-49.3553390593274" type="beat" scale="0.857355980740466" name="speakers"/>
+	<girlfriend x="710" scroll="1" y="138"/>
+	<dad scale="1.5" x="436" y="459"/>
+	<boyfriend scale="1.5" x="1432" y="451"/>
+</stage>

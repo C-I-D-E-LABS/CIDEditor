@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="eggman_dj.png">
+<SubTexture name="idle0000" x="0" y="0" width="40" height="40" frameX="0" frameY="0" frameWidth="40" frameHeight="40" />
+<SubTexture name="idle0001" x="40" y="0" width="40" height="39" frameX="0" frameY="-1" frameWidth="40" frameHeight="40" />
+</TextureAtlas>

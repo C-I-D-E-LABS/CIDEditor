@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mountains.png"><SubTexture name="mountains byebye0000" x="0" y="0" width="2364" height="381" frameX="-174" frameY="-120" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0001" x="2364" y="0" width="2404" height="381" frameX="-134" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0002" x="0" y="381" width="2373" height="381" frameX="-163" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0003" x="0" y="762" width="2412" height="381" frameX="-140" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0004" x="2373" y="381" width="2391" height="381" frameX="-150" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0005" x="0" y="1143" width="2399" height="381" frameX="-143" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0006" x="0" y="1524" width="2376" height="381" frameX="-162" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0007" x="2364" y="0" width="2404" height="381" frameX="-134" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0008" x="0" y="0" width="2364" height="381" frameX="-174" frameY="-120" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0009" x="0" y="1524" width="2376" height="381" frameX="-162" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0010" x="0" y="762" width="2412" height="381" frameX="-140" frameY="-135" frameWidth="2664" frameHeight="681" />
+<SubTexture name="mountains byebye0011" x="2364" y="0" width="2404" height="381" frameX="-134" frameY="-135" frameWidth="2664" frameHeight="681" />
+</TextureAtlas>

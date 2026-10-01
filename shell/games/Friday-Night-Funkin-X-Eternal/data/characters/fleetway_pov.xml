@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="fleetway/fleetway_pov_spr" icon="fleetway_pov" camy="-150" scale="1.43" applyStageMatrix="true">
+	<anim name="idle" anim="export/idleAnim"/>
+	<anim name="singDOWN" anim="export/downAnim" x="-43" y="-63"/>
+	<anim name="singRIGHT" anim="export/rightAnim" x="-337" y="-290"/>
+	<anim name="singLEFT" anim="export/leftAnim" x="295" y="-211"/>
+	<anim name="singUP" anim="export/upAnim" x="34" y="102"/>
+</character>

@@ -1,0 +1,11 @@
+{
+	"image": "sprites/Hero",
+	"type": "sparrow",
+	"hitbox": {"x": 6, "y": 5, "width": 12, "height": 27},
+	"animations": [
+		{"name": "idle", "frames": ["idle0000","idle0001"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": 0},
+		{"name": "run", "frames": ["run0000","run0001","run0002","run0003"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": 0},
+		{"name": "jump", "frames": ["jump0000"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": 0},
+		{"name": "fall", "frames": ["fall0000"], "fps": 12, "loop": true, "offsetX": 0, "offsetY": 0}
+	]
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mazin bopper.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="majin bop0000" x="0" y="0" width="488" height="345" frameX="0" frameY="-7" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0001" x="0" y="0" width="488" height="345" frameX="0" frameY="-7" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0002" x="488" y="0" width="497" height="351" frameX="-6" frameY="-1" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0003" x="488" y="0" width="497" height="351" frameX="-6" frameY="-1" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0004" x="985" y="0" width="495" height="352" frameX="-8" frameY="0" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0005" x="985" y="0" width="495" height="352" frameX="-8" frameY="0" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0006" x="1480" y="0" width="485" height="348" frameX="-5" frameY="-4" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0007" x="1480" y="0" width="485" height="348" frameX="-5" frameY="-4" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0008" x="0" y="352" width="473" height="344" frameX="0" frameY="-8" frameWidth="503" frameHeight="352"/>
+	<SubTexture name="majin bop0009" x="0" y="352" width="473" height="344" frameX="0" frameY="-8" frameWidth="503" frameHeight="352"/>
+</TextureAtlas>

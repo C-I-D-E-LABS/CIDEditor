@@ -1,0 +1,24 @@
+{
+	"params": [
+        {
+            "name": "text message",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Direction",
+            "type": "String",
+            "defaultValue": "n"
+        },
+        {
+            "name": "clear",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "further Delay",
+            "type": "Int(0, 20, 1)",
+            "defaultValue": 0
+        }
+	]
+}

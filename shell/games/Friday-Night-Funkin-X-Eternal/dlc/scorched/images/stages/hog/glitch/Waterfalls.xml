@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Waterfalls.png"><SubTexture name="Waterfalls British0000" x="0" y="0" width="3495" height="658" frameX="0" frameY="0" frameWidth="4096" frameHeight="658" />
+<SubTexture name="Waterfalls British0001" x="3495" y="0" width="3516" height="658" frameX="0" frameY="0" frameWidth="4096" frameHeight="658" />
+<SubTexture name="Waterfalls British0002" x="0" y="658" width="3481" height="658" frameX="0" frameY="0" frameWidth="4096" frameHeight="658" />
+<SubTexture name="Waterfalls British0003" x="3481" y="658" width="3513" height="658" frameX="0" frameY="0" frameWidth="4096" frameHeight="658" />
+<SubTexture name="Waterfalls British0004" x="0" y="1316" width="3514" height="658" frameX="0" frameY="0" frameWidth="4096" frameHeight="658" />
+</TextureAtlas>

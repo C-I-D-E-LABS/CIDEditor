@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/fleetway/" name="Fleetway" zoom="0.37">
+	<sprite x="-3982.08194152013" scroll="0.9" sprite="wall" y="-2122.92071150027" scaley="1.04971382878999" name="wall"/>
+	<sprite x="-89.724445707485" scroll="0.95" sprite="pillar" y="-239.710682286117" scale="3" name="pillar"/>
+	<sprite x="-3525.46171203829" sprite="floor" y="-978.154572425574" scale="1.06636710537419" name="floor"/>
+	<sprite x="-1564.09272213025" sprite="Emerald Beam" y="-2451.48472814073" scale="1.52466907340554" name="beam"/>
+	<sprite x="-1864.40440155985" sprite="emeralds" y="-1560.47655159547" scale="1.69185857930587" name="emerald"/>
+	<sprite x="-2364.73712255762" sprite="fountain" y="531.65428308261" scalex="1.12911444730867" scaley="1.18240041533709" name="fountain"/>
+	<girlfriend alpha="0"/>
+	<dad scale="1.1" x="0" y="0"/>
+	<boyfriend scale="1.7" x="1319.28781026533" y="358.007335933005"/>
+	<sprite x="2077.82717792278" sprite="Porker Lewis" y="-555.254331118505" type="beat" scale="1.41237448289114" scrollx="0.8" name="porker"/>
+	<sprite x="-3830" sprite="pillar_fg" y="-1565" type="none" scalex="1.02801120448179" scaley="1.02855329949239" name="pillar_fg"/>
+</stage>

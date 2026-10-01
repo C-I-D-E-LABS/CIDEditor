@@ -1,0 +1,24 @@
+{
+	"params": [
+		{
+			"name": "Which StrumLine to effect?",
+			"type": "StrumLine",
+			"defaultValue": 0
+		},
+		{
+			"name": "What's the new character?",
+			"type": "String",
+			"defaultValue": "dad"
+		},
+		{
+			"name": "Which character in the StrumLine group?",
+			"type": "Int(0, 999999, 1)",
+			"defaultValue": 0
+		},
+		{
+			"name": "Update Icon and HealthBar Color?",
+			"type": "Bool",
+			"defaultValue": true
+		}
+	]
+}

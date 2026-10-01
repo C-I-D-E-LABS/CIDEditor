@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="230" y="330" sprite="tailsdoll/bf-tails-doll" scale="1.8" flipX="true" camx="-500" camy="-180" icon="BF3D" color="#468BD0">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="left0" x="0" y="-0.56" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="-0.56" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="-1.67" y="-1.67" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="right0" x="1.67" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="miss left" x="1.67" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="miss up" x="-3.33" y="-0.56" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="miss right" x="0" y="0.56" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="miss down" x="-1.11" y="0" fps="24" loop="false"/>
+</character>

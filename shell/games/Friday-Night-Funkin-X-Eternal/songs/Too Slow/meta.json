@@ -1,0 +1,16 @@
+{
+	"color": "#9271FD",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "sonicexe",
+	"difficulties": [
+		"HARD",
+		"NORMAL"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Too Slow",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 100
+}

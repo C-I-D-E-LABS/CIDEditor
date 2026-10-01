@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lordx_16bit.png">
+<SubTexture name="idle0000" x="0" y="45" width="40" height="38" frameX="-13" frameY="-7" frameWidth="64" frameHeight="45" />
+<SubTexture name="right0000" x="40" y="45" width="38" height="38" frameX="-18" frameY="-7" frameWidth="64" frameHeight="45" />
+<SubTexture name="right0001" x="99" y="0" width="36" height="38" frameX="-18" frameY="-7" frameWidth="64" frameHeight="45" />
+<SubTexture name="down0000" x="135" y="0" width="42" height="32" frameX="-8" frameY="-13" frameWidth="64" frameHeight="45" />
+<SubTexture name="down0001" x="75" y="83" width="39" height="34" frameX="-9" frameY="-11" frameWidth="64" frameHeight="45" />
+<SubTexture name="left0000" x="0" y="83" width="38" height="36" frameX="-5" frameY="-9" frameWidth="64" frameHeight="45" />
+<SubTexture name="left0001" x="38" y="83" width="37" height="36" frameX="-8" frameY="-9" frameWidth="64" frameHeight="45" />
+<SubTexture name="up0000" x="0" y="0" width="37" height="45" frameX="-16" frameY="0" frameWidth="64" frameHeight="45" />
+<SubTexture name="up0001" x="37" y="0" width="36" height="44" frameX="-16" frameY="-1" frameWidth="64" frameHeight="45" />
+<SubTexture name="fakeout0000" x="73" y="0" width="26" height="41" frameX="0" frameY="0" frameWidth="26" frameHeight="41" />
+</TextureAtlas>

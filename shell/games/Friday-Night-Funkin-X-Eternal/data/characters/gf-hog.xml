@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="GFHogWeek" x="150" y="500" icon="gf" scale="1.2">
+	<anim name="danceRight" anim="Partner GF confirm" indices="0..10"/>
+	<anim name="danceLeft" anim="Partner GF confirm" indices="11..24"/>
+</character>

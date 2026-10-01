@@ -1,0 +1,18 @@
+{
+	"color": "#000000",
+	"customValues": {
+		"songName": "Prey",
+		"character": "starved"
+	},
+	"opponentModeAllowed": false,
+	"icon": "furnace",
+	"difficulties": [
+		"HARD"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Prey",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 176
+}

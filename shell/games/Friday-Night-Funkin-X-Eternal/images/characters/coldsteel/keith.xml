@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="keith.png">
+<SubTexture name="keith cool0000" x="802" y="1222" width="391" height="389" frameX="-2" frameY="-10" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith cool0001" x="1816" y="388" width="390" height="388" frameX="-2" frameY="-11" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith dab0000" x="1816" y="1137" width="386" height="360" frameX="-11" frameY="-36" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith dab0001" x="1816" y="776" width="386" height="361" frameX="-11" frameY="-34" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith down0000" x="1193" y="1222" width="406" height="388" frameX="-3" frameY="-20" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith down0001" x="1816" y="0" width="404" height="388" frameX="-3" frameY="-21" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith idle0000" x="377" y="816" width="396" height="404" frameX="-5" frameY="-5" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith idle0001" x="773" y="816" width="392" height="403" frameX="-8" frameY="-6" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith left0000" x="1421" y="0" width="395" height="399" frameX="-4" frameY="-11" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith left0001" x="0" y="1222" width="396" height="399" frameX="-6" frameY="-7" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss down0000" x="396" y="1222" width="406" height="390" frameX="-3" frameY="-18" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss down0001" x="0" y="1621" width="406" height="376" frameX="-3" frameY="-32" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss left0000" x="1421" y="399" width="395" height="399" frameX="-4" frameY="-11" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss left0001" x="1421" y="798" width="386" height="395" frameX="-3" frameY="-16" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss right0000" x="385" y="409" width="385" height="407" frameX="-11" frameY="-5" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss right0001" x="0" y="816" width="377" height="406" frameX="-19" frameY="-5" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss up0000" x="1078" y="406" width="343" height="406" frameX="-36" frameY="-2" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith miss up0001" x="730" y="0" width="348" height="408" frameX="-31" frameY="-1" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith right0000" x="0" y="0" width="388" height="409" frameX="-9" frameY="-3" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith right0001" x="0" y="409" width="385" height="407" frameX="-11" frameY="-5" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith up0000" x="1078" y="0" width="343" height="406" frameX="-36" frameY="-2" frameWidth="409" frameHeight="413" />
+<SubTexture name="keith up0001" x="388" y="0" width="342" height="408" frameX="-34" frameY="-3" frameWidth="409" frameHeight="413" />
+</TextureAtlas>

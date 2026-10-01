@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-40" y="140" sprite="starved/starved16bit_talk" antialiasing="false" camx="-160" camy="90" icon="starved-pixel" color="#FF2300" holdTime="6.1">
+	<anim name="idle" anim="idle" loop="true" indices="1..8"/>
+	<anim name="talk" anim="idle"/>
+</character>

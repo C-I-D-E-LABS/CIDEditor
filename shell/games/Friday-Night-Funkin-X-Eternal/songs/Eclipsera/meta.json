@@ -1,0 +1,17 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"character": "sally_alt"
+	},
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "sally_alt",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Eclipsera",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 180
+}

@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Enable Visualizer",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "Disable Screen",
+            "type": "Bool",
+            "defaultValue": false
+        }
+    ]
+}

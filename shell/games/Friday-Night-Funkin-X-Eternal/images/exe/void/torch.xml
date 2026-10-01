@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torch.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bigTorch0000" x="46" y="46" width="448" height="1754" frameX="0" frameY="-100" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0001" x="46" y="46" width="448" height="1754" frameX="0" frameY="-100" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0002" x="540" y="46" width="448" height="1774" frameX="0" frameY="-80" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0003" x="540" y="46" width="448" height="1774" frameX="0" frameY="-80" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0004" x="1034" y="46" width="448" height="1819" frameX="0" frameY="-35" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0005" x="1034" y="46" width="448" height="1819" frameX="0" frameY="-35" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0006" x="1528" y="46" width="448" height="1837" frameX="0" frameY="-17" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0007" x="1528" y="46" width="448" height="1837" frameX="0" frameY="-17" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0008" x="2022" y="46" width="448" height="1854"/>
+	<SubTexture name="bigTorch0009" x="2022" y="46" width="448" height="1854"/>
+	<SubTexture name="bigTorch0010" x="2516" y="46" width="448" height="1795" frameX="0" frameY="-59" frameWidth="448" frameHeight="1854"/>
+	<SubTexture name="bigTorch0011" x="2516" y="46" width="448" height="1795" frameX="0" frameY="-59" frameWidth="448" frameHeight="1854"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+{
+	"color": "#2647FB",
+	"customValues": {
+		"songName": "Cycles",
+		"character": "lordx"
+	},
+	"opponentModeAllowed": true,
+	"icon": "lordx",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Cycles",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 156
+}

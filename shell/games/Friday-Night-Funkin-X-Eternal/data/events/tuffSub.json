@@ -1,0 +1,14 @@
+{
+	"params": [
+        {
+            "name": "text message",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "clear",
+            "type": "Bool",
+            "defaultValue": false
+        }
+	]
+}

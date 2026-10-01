@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Majin Encore.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Majin Down0000" x="0" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0001" x="0" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0002" x="888" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0003" x="888" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0004" x="1776" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0005" x="1776" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0006" x="2664" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0007" x="2664" y="0" width="888" height="807"/>
+	<SubTexture name="Majin Down0008" x="0" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0009" x="0" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0010" x="0" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0011" x="0" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0012" x="0" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0013" x="888" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0014" x="888" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0015" x="1776" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Down0016" x="1776" y="807" width="888" height="807"/>
+	<SubTexture name="Majin Idle0000" x="2664" y="807" width="666" height="786"/>
+	<SubTexture name="Majin Idle0001" x="2664" y="807" width="666" height="786"/>
+	<SubTexture name="Majin Idle0002" x="3330" y="807" width="666" height="786"/>
+	<SubTexture name="Majin Idle0003" x="3330" y="807" width="666" height="786"/>
+	<SubTexture name="Majin Idle0004" x="0" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0005" x="0" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0006" x="666" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0007" x="666" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0008" x="1332" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0009" x="1332" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0010" x="1998" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0011" x="1998" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0012" x="2664" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Idle0013" x="2664" y="1614" width="666" height="786"/>
+	<SubTexture name="Majin Left0000" x="3330" y="1614" width="733" height="764"/>
+	<SubTexture name="Majin Left0001" x="3330" y="1614" width="733" height="764"/>
+	<SubTexture name="Majin Left0002" x="0" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0003" x="0" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0004" x="730" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0005" x="730" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0006" x="1460" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0007" x="1460" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0008" x="2190" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0009" x="2190" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0010" x="2190" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0011" x="2190" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0012" x="2190" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0013" x="2920" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0014" x="2920" y="2400" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0015" x="0" y="3164" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Left0016" x="0" y="3164" width="730" height="764" frameX="-3" frameY="0" frameWidth="733" frameHeight="764"/>
+	<SubTexture name="Majin Right0000" x="730" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0001" x="730" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0002" x="1578" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0003" x="1578" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0004" x="2426" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0005" x="2426" y="3164" width="848" height="833"/>
+	<SubTexture name="Majin Right0006" x="0" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0007" x="0" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0008" x="848" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0009" x="848" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0010" x="848" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0011" x="848" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0012" x="848" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0013" x="1696" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0014" x="1696" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0015" x="2544" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Right0016" x="2544" y="3997" width="848" height="833"/>
+	<SubTexture name="Majin Up0000" x="0" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0001" x="0" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0002" x="809" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0003" x="809" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0004" x="1618" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0005" x="1618" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0006" x="2427" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0007" x="2427" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0008" x="3236" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0009" x="3236" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0010" x="3236" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0011" x="3236" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0012" x="3236" y="4830" width="809" height="876"/>
+	<SubTexture name="Majin Up0013" x="0" y="5706" width="809" height="876"/>
+	<SubTexture name="Majin Up0014" x="0" y="5706" width="809" height="876"/>
+	<SubTexture name="Majin Up0015" x="809" y="5706" width="809" height="876"/>
+	<SubTexture name="Majin Up0016" x="809" y="5706" width="809" height="876"/>
+</TextureAtlas>

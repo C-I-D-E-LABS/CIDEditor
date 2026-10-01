@@ -1,0 +1,24 @@
+{
+    "name": "Majin",
+    "title": "The Cursed Hedgehog",
+    "bio": "Majin Sonic is a surreal, unsettling variant of Sonic the Hedgehog. He exists within the digital landscape of the Sound Test menu. He is famous for his eerie, human-like mask and a haunting laugh. While initially feared as a digital curse, he is actually an entity centered around infinite, chaotic fun.",
+    "characters": [{
+        "character": "majin_us",
+        "x": 550,
+        "y": 140, 
+        "scale": 1
+    },        
+    {
+        "character": "majin_default",
+        "x": 250,
+        "y": 0, 
+        "scale": 0.8
+    },
+    {
+        "character": "majin_jp",
+        "x": 850,
+        "y": 140, 
+        "scale": 1
+     }]
+     
+}

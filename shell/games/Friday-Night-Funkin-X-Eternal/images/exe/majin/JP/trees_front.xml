@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="trees_front.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="trees mazins front instance 10000" x="4" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10001" x="4" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10002" x="1471" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10003" x="1471" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10004" x="2938" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10005" x="2938" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10006" x="2938" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10007" x="4405" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10008" x="4405" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10009" x="5872" y="4" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10010" x="4" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10011" x="1471" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10012" x="1471" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10013" x="2938" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10014" x="2938" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10015" x="4405" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10016" x="4405" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10017" x="4405" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10018" x="5872" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10019" x="5872" y="829" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10020" x="4" y="1654" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10021" x="1471" y="1654" width="1467" height="825"/>
+	<SubTexture name="trees mazins front instance 10022" x="4" y="4" width="1467" height="825"/>
+</TextureAtlas>

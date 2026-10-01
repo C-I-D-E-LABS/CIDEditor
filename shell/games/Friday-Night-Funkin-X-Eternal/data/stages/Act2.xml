@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/sonicp2/" name="Act2" zoom="0.6">
+	<sprite x="-80" scroll="0.55" sprite="sky" y="-70" scale="1.25" name="Sky"/>
+	<sprite scrolly="0.75" x="-65" sprite="Trees" y="-65" scale="1.25" scrollx="0.7" name="Trees"/>
+	<sprite scrolly="0.88" x="-35" sprite="GrassBack" y="70" scale="1.25" scrollx="0.84" name="GrassBack"/>
+	<sprite scale="1.25" sprite="Grass" name="Grass"/>
+	<sprite scrolly="0.96" x="-30" sprite="TopOverlay" y="-60" scale="1.25" scrollx="0.92" name="TopOverlay"/>
+	<girlfriend x="993.664972524384" scroll="1" y="339.096621724721"/>
+	<dad x="578.598723036647" y="16.1885720513125"/>
+	<boyfriend x="1545.67526621578" y="305.327884170672"/>
+	<sprite scale="1.25" scrollx="0.95" sprite="TreesFront" name="TreesFront"/>
+</stage>

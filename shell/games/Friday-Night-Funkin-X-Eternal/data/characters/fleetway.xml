@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="-930" y="-1180" sprite="fleetway/fleetway_spr" camx="-85" camy="-125" color="#E1821C" applyStageMatrix="true" isGF="false">
+	<anim name="idle" anim="idlePose" loop="true"/>
+	<anim name="singLEFT" anim="LeftPose" x="126" y="-337"/>
+	<anim name="singDOWN" anim="DownPose" x="-177" y="-384"/>
+	<anim name="singUP" anim="UpPose" x="-59" y="103"/>
+	<anim name="singRIGHT" anim="RightPose" x="-185" y="-294"/>
+	<anim name="laugh" anim="LaughPose" x="-61.18" y="103.53"/>
+	<anim name="singUP-alt" anim="LaughPose" x="-61.18" y="103.53"/>
+	<anim name="blast" anim="blast" x="-418" y="-699"/>
+</character>

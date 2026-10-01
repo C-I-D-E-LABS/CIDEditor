@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="majin/Majin Encore" icon="majin-jp" color="#0000FF" zoomAmt="0.58" offAmt="30" angleAmt="2">
+	<anim name="idle" anim="Majin Idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Majin Down0" x="140" y="5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Majin Left0" x="270" y="-20" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Majin Right0" x="-30" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Majin Up0" x="80" y="80" fps="24" loop="false"/>
+</character>

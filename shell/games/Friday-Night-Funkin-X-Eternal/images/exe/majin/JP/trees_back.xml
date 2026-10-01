@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mazin.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="trees mazin back instance 10000" x="4" y="4" width="2247" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10001" x="4" y="4" width="2247" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10002" x="2251" y="4" width="2246" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10003" x="2251" y="4" width="2246" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10004" x="4497" y="4" width="2253" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10005" x="4497" y="4" width="2253" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10006" x="4497" y="4" width="2253" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10007" x="4" y="757" width="2254" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10008" x="4" y="757" width="2254" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10009" x="2258" y="757" width="2255" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10010" x="4513" y="757" width="2261" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10011" x="4" y="1510" width="2268" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10012" x="4" y="1510" width="2268" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10013" x="2272" y="1510" width="2259" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10014" x="2272" y="1510" width="2259" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10015" x="4531" y="1510" width="2256" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10016" x="4531" y="1510" width="2256" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10017" x="4531" y="1510" width="2256" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10018" x="4" y="2263" width="2255" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10019" x="4" y="2263" width="2255" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10020" x="2259" y="2263" width="2253" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10021" x="4512" y="2263" width="2246" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+	<SubTexture name="trees mazin back instance 10022" x="4" y="4" width="2247" height="753" frameX="0" frameY="0" frameWidth="2269" frameHeight="753"/>
+</TextureAtlas>

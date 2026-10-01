@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lightning.png">
+<SubTexture name="play0000" x="0" y="0" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+<SubTexture name="play0001" x="0" y="48" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+<SubTexture name="play0002" x="0" y="96" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+<SubTexture name="play0003" x="0" y="144" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+<SubTexture name="play0004" x="0" y="192" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+<SubTexture name="play0005" x="0" y="192" width="768" height="48" frameX="0" frameY="0" frameWidth="768" frameHeight="48" />
+</TextureAtlas>

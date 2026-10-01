@@ -1,0 +1,164 @@
+{
+	"events": [
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 22657.8947368421,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				4,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 42947.3684210526
+		},
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 63157.8947368421,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				1,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 65684.2105263158
+		},
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 68210.5263157895,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 73105.2631578947
+		},
+		{
+			"params": [
+				4,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 83368.4210526316
+		},
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 93394.7368421053,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				4,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 101052.631578947
+		},
+		{
+			"params": [
+				2,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 103500,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				1,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 133894.736842105,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				1,
+				2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 144000
+		},
+		{
+			"params": [
+				1,
+				3,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 147789.473684211
+		},
+		{
+			"params": [
+				1,
+				2,
+				"BEAT",
+				0
+			],
+			"time": 149052.631578947,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				1,
+				3,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 152842.105263158
+		},
+		{
+			"params": [
+				4,
+				1,
+				"BEAT",
+				0
+			],
+			"time": 156000,
+			"name": "Camera Modulo Change"
+		}
+	]
+}

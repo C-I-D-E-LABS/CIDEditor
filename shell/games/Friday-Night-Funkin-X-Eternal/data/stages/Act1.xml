@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/sonicp1/" name="ac1" zoom="0.8">
+	<sprite x="-3305.63206907384" y="-1273.5032484252" type="none" scrollx="0.7" name="BG" scrolly="0.75" sprite="BG" scalex="0.692986714133776" scaley="0.692374699176566"/>
+	<sprite scrolly="0.85" x="187.223693886376" sprite="treesMidBack" y="281.653888618699" type="none" scale="1.48508369276" scrollx="0.75" name="palms1"/>
+	<sprite x="-3065.8369085611" sprite="bgTrees" y="-1280.07897502582" type="none" scale="0.468442556878462" scrollx="1.02" name="bgTrees"/>
+	<sprite scrolly="0.9" x="-624.663491222253" sprite="TreesMid2" y="79.4394418271351" type="none" scale="1.35069950999296" scrollx="0.85" name="palms2"/>
+	<sprite x="-785.002146272953" scroll="0.95" sprite="TreesMid" y="47.7326672176267" type="none" scale="1.24840532016012" name="palms3"/>
+	<sprite scrolly="0.9" x="1085.81269925394" sprite="TreesMid2" y="113.725156112849" type="none" scale="1.35069950999296" scrollx="0.85" name="palms4"/>
+	<sprite x="1306.53550140357" scroll="0.95" sprite="TreesMid" y="127.755368660899" type="none" scale="1.42268436995363" name="palms5"/>
+	<sprite x="-2849.37563258812" sprite="brush" y="39.8053114429839" type="none" scale="0.393571696720703" scrollx="1.05" name="brush"/>
+	<sprite x="-2260.57850648045" sprite="floor" y="211.509357296125" type="none" scale="0.481483065873954" name="Floor"/>
+	<sprite x="119" sprite="gore" y="240" type="none" name="gore"/>
+	<girlfriend x="590" scroll="1" y="84" scale="0.7" angle="0.09"/>
+	<dad scale="0.7" x="252" y="80"/>
+	<boyfriend scale="0.7" x="1100.61" y="90"/>
+	<sprite x="-2893.83209147934" y="-62.9662361487068" type="none" scale="0.55866596107021" scrollx="1.12" name="fg" scrolly="1.08" sprite="fgRocks" skewx="-4.11864675697871e-11"/>
+</stage>

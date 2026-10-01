@@ -1,0 +1,9 @@
+{
+    "name": "Furnace",
+    "title": "The Prey Hunter",
+    "bio": "A terrifying, heat-spewing Metal Sonic variant built by Starved Eggman for a singular, grisly purpose: to hunt, capture, and flash-cook Mobians. Driven by mechanical perfection, this metallic predator will incinerate anyone who stands between him and his target.",
+    "character": "furnace",
+    "x": 430,
+    "y": 300,
+    "scale": 6
+}

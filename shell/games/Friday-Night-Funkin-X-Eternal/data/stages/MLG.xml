@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/sanic/" name="MLG" zoom="0.35">
+	<sprite scale="1.5" sprite="SanicBg" y="-500" name="bg"/>
+	<sprite x="785" sprite="teletubbie" y="-55" type="none" alpha="0" scale="2.5" name="mlgbg"/>
+	<girlfriend alpha="0"/>
+	<dad scale="1.5" x="430.388403183487" y="536.719525666486"/>
+	<boyfriend scale="1.5" x="2613" y="925"/>
+</stage>

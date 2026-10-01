@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="floor.png"><SubTexture name="floor bongo0000" x="0" y="0" width="2254" height="542" frameX="0" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0001" x="0" y="542" width="2244" height="542" frameX="-9" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0002" x="0" y="1084" width="2241" height="542" frameX="-13" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0003" x="0" y="1626" width="2234" height="542" frameX="-20" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0004" x="2254" y="0" width="2228" height="542" frameX="-17" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0005" x="0" y="1626" width="2234" height="542" frameX="-20" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0006" x="0" y="1084" width="2241" height="542" frameX="-13" frameY="0" frameWidth="2254" frameHeight="576" />
+<SubTexture name="floor bongo0007" x="0" y="542" width="2244" height="542" frameX="-9" frameY="0" frameWidth="2254" frameHeight="576" />
+</TextureAtlas>

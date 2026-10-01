@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#8771FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "scorched",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Manual Blast",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 130
+}

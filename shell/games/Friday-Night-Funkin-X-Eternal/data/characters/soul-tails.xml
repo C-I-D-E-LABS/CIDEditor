@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="80" sprite="souls/tailssoul" camx="150" camy="75" icon="tails" color="#737373" holdTime="6.1">
+	<anim name="singLEFT" anim="Tails Left" x="-91" y="-16"/>
+	<anim name="singDOWN" anim="Tails Down" x="-110" y="-20"/>
+	<anim name="singUP" anim="Tails Up" x="-120" y="-23"/>
+	<anim name="singRIGHT" anim="Tails Right" x="-103" y="-13"/>
+	<anim name="idle" anim="Tails Idle" x="-50"/>
+</character>

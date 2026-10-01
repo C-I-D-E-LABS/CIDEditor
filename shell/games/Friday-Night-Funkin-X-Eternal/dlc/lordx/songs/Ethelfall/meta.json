@@ -1,0 +1,18 @@
+{
+	"color": "#000000",
+	"customValues": {
+		"songName": "Ethelfall",
+		"character": "lordx"
+	},
+	"opponentModeAllowed": true,
+	"icon": "lordxdeath",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Ethelfall",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 132
+}

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="142" y="350" sprite="HogOddFella" scale="1.3" camx="-200" camy="-150" icon="hogAlt" color="#242697">
+	<anim name="idle" anim="HogIdle"/>
+	<anim name="singDOWN" anim="HogDown" x="56" y="-43"/>
+	<anim name="singRIGHT" anim="HogRight" x="25.46" y="-4.46"/>
+	<anim name="singLEFT" anim="HogLeft" x="109.23" y="-9.77"/>
+	<anim name="singUP" anim="HogUp" x="20.69" y="67.08"/>
+	<anim name="spin" anim="Attack0" x="376" y="206"/>
+</character>

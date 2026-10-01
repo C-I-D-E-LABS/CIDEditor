@@ -1,0 +1,18 @@
+{
+	"color": "#2647FB",
+	"customValues": {
+		"songName": "Chaos",
+		"character": "fleetway"
+	},
+	"opponentModeAllowed": true,
+	"icon": "fleetway",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Chaos",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 189
+}

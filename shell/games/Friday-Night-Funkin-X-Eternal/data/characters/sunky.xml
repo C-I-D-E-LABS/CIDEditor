@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sunky/Sunky" color="#2648FB">
+	<anim name="idle" anim="idle0" loop="true"/>
+	<anim name="singDOWN" anim="singDOWN0" x="-30" y="-50"/>
+	<anim name="singLEFT" anim="singLEFT0" x="60"/>
+	<anim name="singRIGHT" anim="singRIGHT0" x="-128" y="58"/>
+	<anim name="singUP" anim="singUP0" x="-80" y="124"/>
+</character>

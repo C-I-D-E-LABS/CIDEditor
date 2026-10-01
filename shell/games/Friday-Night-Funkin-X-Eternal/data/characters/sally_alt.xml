@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sally/sallyexe" camx="-80" camy="100" icon="sally_alt" color="#A51200">
+	<anim name="idle" anim="sally idle"/>
+	<anim name="singDOWN" anim="sally down" x="35" y="-211"/>
+	<anim name="singRIGHT" anim="sally right" x="-64" y="-171"/>
+	<anim name="singLEFT" anim="sally left" x="58" y="-52"/>
+	<anim name="singUP" anim="sally up" x="26" y="229"/>
+</character>

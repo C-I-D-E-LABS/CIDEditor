@@ -1,0 +1,19 @@
+{
+    "name": "Tails Doll",
+    "title": "The Soulless Doll",
+    "bio": "Born from the game Sonic R made by SEGA Enterprises, this odd little doll was never supposed to watch back. What started as a strange bonus character has curdled into something else entirely — the stitched grin, the flat dead eyes, the way he seems to shift position when you're not looking directly at him. Creepypastas call him cursed. People who claim to have seen him move call it something worse. Some say if he catches your reflection in a mirror at 3 AM, or if you hum his theme alone in the dark, he starts finding his way closer to you through screens, through static, through the corner of your eye. Just remember: don't stare too long, don't say his name three times, and if you ever hear that tinny, warped laugh behind you... don't turn around. He's already taken more than arms before.",
+    "characters": [
+        {
+            "character": "tailsdoll",
+            "x": 470,
+            "y": -100,
+            "scale": 1
+        },
+        {
+            "character": "tailsdoll_bloody",
+            "x": 490,
+            "y": 50,
+            "scale": 0.7
+        }
+    ]
+}

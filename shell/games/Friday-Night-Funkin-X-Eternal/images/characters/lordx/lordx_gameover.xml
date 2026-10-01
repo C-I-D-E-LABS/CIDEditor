@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lordx_gameover.png">
+<SubTexture name="idle0000" x="0" y="0" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="idle0001" x="250" y="0" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="idle0002" x="0" y="148" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="idle0003" x="250" y="148" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0000" x="0" y="296" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0001" x="250" y="296" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0002" x="500" y="0" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0003" x="500" y="148" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0004" x="500" y="296" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0005" x="0" y="444" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+<SubTexture name="confirm0006" x="0" y="444" width="250" height="148" frameX="0" frameY="0" frameWidth="250" frameHeight="148" />
+</TextureAtlas>

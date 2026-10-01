@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="45" sprite="souls/EGGSOUL" camx="100" camy="25" icon="eggman" color="#996600" holdTime="6.1">
+	<anim name="singDOWN" anim="Eggman_Down" x="20" y="-50"/>
+	<anim name="singLEFT" anim="Eggman_Left" x="300" y="111"/>
+	<anim name="singUP" anim="Eggman_Up" x="-30" y="283"/>
+	<anim name="singRIGHT" anim="Eggman_Right" x="-102" y="-97"/>
+	<anim name="idle" anim="Eggman_Idle"/>
+	<anim name="laugh" anim="Eggman_Laugh" x="160" y="320" fps="36"/>
+</character>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/coldsteel/" name="Void" zoom="0.5">
+	<girlfriend alpha="0"/>
+	<dad x="-54" y="50"/>
+	<boyfriend camxoffset="600" x="716" y="82"/>
+	<sprite x="700" sprite="bubble" y="-335" type="none" scale="0.9" name="bubble"/>
+</stage>

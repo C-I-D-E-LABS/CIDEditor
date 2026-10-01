@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-10" y="140" sprite="starved/starved16bit" antialiasing="false" camx="-160" camy="90" icon="starved16bit" color="#FF2200" holdTime="3">
+	<anim name="idle" anim="idle-norm" x="-8" y="-21" fps="16" loop="true"/>
+	<anim name="singRIGHT" anim="right0" x="-2" fps="16"/>
+	<anim name="singLEFT" anim="left0" x="-1" y="-3" fps="16"/>
+	<anim name="singDOWN" anim="down0" y="7" fps="16"/>
+	<anim name="singUP" anim="up0" y="1" fps="16"/>
+	<anim name="talk" anim="talk" x="36" y="-4"/>
+	<anim name="idle-alt" anim="idle-alt" x="-8" y="-21" loop="true"/>
+</character>

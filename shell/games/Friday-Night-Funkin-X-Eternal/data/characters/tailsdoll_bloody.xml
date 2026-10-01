@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="-500" sprite="tailsdoll/TailsDollBloody" camx="-230" camy="300" icon="taildoll" color="#000000" zoomAmt="1" applyStageMatrix="true">
+	<anim name="idle" anim="export/idle" loop="true"/>
+	<anim name="idle-alt" anim="export/sleep" x="34" y="-133" loop="true"/>
+	<anim name="wake" anim="export/awake" x="34" y="-132"/>
+	<anim name="singDOWN" anim="export/down" x="-316" y="-345"/>
+	<anim name="singRIGHT" anim="export/right" x="-318" y="-173"/>
+	<anim name="singLEFT" anim="export/left" x="49" y="-127"/>
+	<anim name="singUP" anim="export/up" x="10" y="151"/>
+</character>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-900" y="-1000" sprite="fleetway/fleetwayAnims" scale="1.43" camx="195" camy="-80" icon="fleetway" color="#E1821C">
+	<anim name="fast" anim="Fleetway Fast"/>
+	<anim name="show you" anim="Fleetway Show You" x="128" y="144"/>
+	<anim name="shut up" anim="Fleetway Shut Up" x="52" y="48"/>
+	<anim name="finished" anim="Fleetway YoureFinished"/>
+	<anim name="step it up" anim="Fleetway StepItUp" x="26" y="68"/>
+	<anim name="grrr" anim="Fleetway Grrr" x="34.97" y="4.9"/>
+	<anim name="scream" anim="Fleetway Scream" x="103.5" y="11.89"/>
+</character>

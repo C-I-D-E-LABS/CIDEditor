@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="1075" y="270" sprite="souls/knucklessoul" scale="1.05" camx="-500" camy="125" icon="knuckles" color="#670000">
+	<anim name="singUP" anim="knuxup" x="87.62" y="-49.52" indices="0..15"/>
+	<anim name="singDOWN" anim="knuxdown" x="123.81" y="-153.33" indices="0..15"/>
+	<anim name="idle" anim="knuxidle" x="89.52" y="-47.62" indices="0..13"/>
+	<anim name="singRIGHT" anim="knuxleft" x="88.57" y="-65.71" indices="0..15"/>
+	<anim name="singLEFT" anim="knuxright" x="280.95" y="-117.14" indices="0..15"/>
+</character>

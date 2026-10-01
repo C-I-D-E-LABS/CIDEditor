@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.67" name="hillfading" folder="stages/tri/" startCamPosY="700" startCamPosX="1200">
+
+    <solid name="solidWhite" x="-500" y="-250" width="4000" height="2000" scroll="0" color="#FEFEFE"/>
+
+	<sprite name="sky"          x="0" y="0"   sprite="sky" scale="1.8" updateHitbox="true"      scroll="0.9" />
+
+	<sprite name="floor"       x="0" y="0"    sprite="field" scale="1.8" updateHitbox="true"      scroll="1"/>
+
+	<dad x="650" y="380"/>
+	<boyfriend x="1590" y="840"/>
+
+    <use-extension script="camMove"/>
+</stage>

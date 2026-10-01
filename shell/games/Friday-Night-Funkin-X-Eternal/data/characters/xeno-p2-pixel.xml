@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="700" sprite="sonicexe/SonicExePixel" scale="6.5" antialiasing="false" camx="-125" camy="75" icon="ycrPixel">
+	<anim name="idle" anim="idle0" x="18.85" y="-5.08" fps="16"/>
+	<anim name="singDOWN" anim="down0" x="24" y="-2.31" fps="16"/>
+	<anim name="singRIGHT" anim="right0" x="-10"/>
+	<anim name="singUP" anim="up0" x="4.92" y="-1" fps="16"/>
+	<anim name="singLEFT" anim="left0" x="14" y="-0.85" fps="16"/>
+</character>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="LordXGameOver.png">
+<SubTexture name="LordXGameOver idle0000" x="0" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0001" x="247" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0002" x="0" y="198" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0003" x="247" y="198" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0004" x="494" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0005" x="494" y="198" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0006" x="0" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver idle0007" x="247" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0000" x="0" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0001" x="0" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0002" x="0" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0003" x="494" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0004" x="494" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0005" x="494" y="396" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0006" x="741" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0007" x="741" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+<SubTexture name="LordXGameOver confirm0008" x="741" y="0" width="247" height="198" frameX="0" frameY="0" frameWidth="247" frameHeight="198" />
+</TextureAtlas>

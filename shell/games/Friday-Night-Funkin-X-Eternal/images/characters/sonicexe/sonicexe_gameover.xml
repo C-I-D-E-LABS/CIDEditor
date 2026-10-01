@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sonicexe_gameover.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gameOver0000" x="27" y="27" width="347" height="315"/>
+	<SubTexture name="gameOver0001" x="396" y="27" width="347" height="315"/>
+	<SubTexture name="gameOver0002" x="765" y="27" width="347" height="315"/>
+	<SubTexture name="gameOver0003" x="1134" y="27" width="347" height="315"/>
+	<SubTexture name="gameOver0004" x="1503" y="27" width="347" height="315"/>
+	<SubTexture name="gameOver0005" x="27" y="364" width="347" height="315"/>
+	<SubTexture name="gameOver0006" x="396" y="364" width="347" height="315"/>
+</TextureAtlas>

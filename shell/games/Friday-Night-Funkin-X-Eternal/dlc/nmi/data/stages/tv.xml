@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" startCamPosX="0" startCamPosY="0" folder="bgStage/">
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="sky" name="sky"/>
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="mounts" name="mounts" scrollx="0.85"/>
+    <sprite x="0" y="0" alpha="1" scale="1.2" sprite="trees" name="trees" />
+    <sprite x="0" y="0" alpha="1" sprite="floor" name="floor" scale="1.2"/>
+
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="tv/redbox" name="redbox" antialiasing="true"/>
+    <dad x="1000" y="400" alpha="1" scale="0.7" camxoffset="30" camyoffset="0" flipX="false" />
+    <sprite x="0" y="0" alpha="1" scale="1" sprite="tv/room" name="room" antialiasing="true"/>
+    <sprite x="50" y="0" alpha="1" scale="1" sprite="tv/glow" name="glow" antialiasing="true"/>
+
+    <bf x="1880" y="750" alpha="1" scale="2" camxoffset="-620" camyoffset="-230" flipX="false"/>
+    <sprite x="0" y="100" alpha="1" scale="1.2" sprite="fg" name="fg" scrollx="0.75"/>
+</stage>

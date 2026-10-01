@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="saticTD.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stat0000" x="25" y="25" width="640" height="361"/>
+	<SubTexture name="stat0001" x="25" y="25" width="640" height="361"/>
+	<SubTexture name="stat0002" x="690" y="25" width="640" height="361"/>
+	<SubTexture name="stat0003" x="690" y="25" width="640" height="361"/>
+	<SubTexture name="stat0004" x="1355" y="25" width="640" height="361"/>
+	<SubTexture name="stat0005" x="1355" y="25" width="640" height="361"/>
+	<SubTexture name="stat0006" x="25" y="411" width="640" height="361"/>
+	<SubTexture name="stat0007" x="25" y="411" width="640" height="361"/>
+	<SubTexture name="stat0008" x="690" y="411" width="640" height="361"/>
+	<SubTexture name="stat0009" x="690" y="411" width="640" height="361"/>
+</TextureAtlas>

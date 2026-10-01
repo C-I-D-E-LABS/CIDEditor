@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/" name="fate" zoom="0.45">
+	<sprite x="130" scroll="0.6" sprite="lordx/Sky" y="-150" type="none" scale="2.5" color="#FF8800" name="skyX"/>
+	<sprite scrolly="0.9" x="-44.4170435337318" sprite="lordx/Mounts" y="-281.493099549159" type="none" scale="1.98078501326453" scrollx="0.85" name="hillsX"/>
+	<sprite x="8.50783893443776" y="-176.377857454107" type="none" scrollx="0.9" name="hillsX2" scrolly="0.95" sprite="lordx/Mountsfront" scalex="1.98456598854422" scaley="1.81329749241093"/>
+	<sprite x="130" sprite="lordx/floor" type="none" scale="2" name="groundX"/>
+	<sprite x="130" sprite="lordx/plants/plant1" type="none" scale="1.7" name="plant1"/>
+	<sprite x="130" sprite="lordx/plants/plant2" type="none" scale="1.7" name="plant2"/>
+	<sprite x="130" sprite="lordx/plants/plant3" type="none" scale="1.7" name="plant3"/>
+	<sprite x="130" sprite="lordx/plants/plant4" type="none" scale="1.7" name="plant4"/>
+	<sprite x="130" sprite="lordx/plants/plant5" type="none" scale="1.7" name="plant5"/>
+	<sprite x="130" sprite="lordx/plants/plant6" type="none" scale="1.7" name="plant6"/>
+	<sprite x="130" sprite="lordx/plants/plant7" type="none" scale="1.7" name="plant7"/>
+	<sprite x="585" scroll="0.6" sprite="fate/sky" y="-342" type="none" scale="2.5" name="fateSky"/>
+	<sprite x="70" scroll="0.9" sprite="fate/pillars" y="-415" type="none" scale="1.8" name="fatePillars"/>
+	<sprite x="196" sprite="fate/floor" y="849" type="none" scalex="2.5" scaley="3" name="fateFloor"/>
+	<dad/>
+	<girlfriend/>
+	<boyfriend y="130"/>
+	<sprite scrolly="1.05" x="100" sprite="lordx/FG" type="none" scale="3" scrollx="1.15" name="plantsX2"/>
+	<sprite scrolly="1.05" x="100" sprite="fate/FG" y="100" type="none" scale="3" scrollx="1.15" name="fateFG"/>
+</stage>

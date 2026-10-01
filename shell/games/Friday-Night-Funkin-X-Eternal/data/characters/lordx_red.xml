@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" y="40" sprite="lordx/RedGloveX" icon="redGlove" scale="2" antialiasing="false" camx="-180" camy="100">
+	<anim name="idle" anim="RedGloveX idle" fps="12"/>
+	<anim name="singDOWN" anim="RedGloveX down" x="7.5" y="-2" fps="12"/>
+	<anim name="singRIGHT" anim="RedGloveX right" x="3" y="3" fps="12"/>
+	<anim name="singLEFT" anim="RedGloveX left" x="4.5" y="4" fps="12"/>
+	<anim name="singUP" anim="RedGloveX up" x="5.5" y="4.5" fps="12"/>
+</character>

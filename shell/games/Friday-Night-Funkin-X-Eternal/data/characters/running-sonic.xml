@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character y="-500" sprite="sonic/sonic-run" antialiasing="false" flipX="true" camx="100" camy="100" icon="sonic" color="#0023FC" holdTime="3">
+	<anim name="idle" anim="idle0" fps="16" loop="true"/>
+	<anim name="singDOWN" anim="down" fps="16"/>
+	<anim name="singUP" anim="up" fps="16"/>
+	<anim name="singRIGHT" anim="left" fps="16"/>
+	<anim name="singLEFT" anim="right" fps="16"/>
+	<anim name="talk" anim="talk" y="-17"/>
+	<anim name="intro" anim="intro" x="-19" y="-11"/>
+	<anim name="idle-alt" anim="idle-alt" x="-19" y="-11" fps="16" loop="true"/>
+</character>

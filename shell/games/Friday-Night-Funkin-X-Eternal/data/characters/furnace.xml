@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character x="460" sprite="starved/Furnace16bit" scale="1.4" antialiasing="false" camx="-100" camy="130" color="#272427" holdTime="3">
+	<anim name="idle" anim="idle0" fps="20" loop="true"/>
+	<anim name="singUP" anim="up0" x="-0.86" y="9.29" fps="20"/>
+	<anim name="singRIGHT" anim="right0" x="-13.15" y="-0.86" fps="20"/>
+	<anim name="singLEFT" anim="left0" x="15.57" y="2" fps="20"/>
+	<anim name="singDOWN" anim="down0" x="9.29" y="-9.86" fps="20"/>
+	<anim name="idle-alt" anim="idle-alt" fps="10" loop="true"/>
+	<anim name="singUP-alt" anim="up-alt" x="-0.86" y="16.43" fps="10"/>
+	<anim name="singRIGHT-alt" anim="right-alt" x="-16" y="-0.15" fps="10"/>
+	<anim name="singLEFT-alt" anim="left-alt" x="17" y="2" fps="10"/>
+	<anim name="singDOWN-alt" anim="down-alt" x="5" y="-9.86" fps="10"/>
+	<anim name="charge" anim="charge" fps="16" loop="true"/>
+	<anim name="prep" anim="prep" loop="true"/>
+	<anim name="atk" anim="atk1" loop="true"/>
+		
+</character>

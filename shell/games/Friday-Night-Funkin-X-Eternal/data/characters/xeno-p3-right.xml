@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="500" y="-175" sprite="sonicexe/Xenophanes" scale="1.1" flipX="true" camx="-600" camy="150" icon="xeno" color="#472981">
+	<anim name="idle" anim="idle" fps="18" loop="true"/>
+	<anim name="singDOWN" anim="down" x="254" y="-136" fps="18"/>
+	<anim name="singUP" anim="up" x="124" y="179" fps="18"/>
+	<anim name="singLEFT" anim="right" x="438" y="-191" fps="18"/>
+	<anim name="singRIGHT" anim="left" x="-72" y="-26" fps="18"/>
+	<anim name="laugh" anim="laugh" x="317" y="-365" fps="18"/>
+</character>

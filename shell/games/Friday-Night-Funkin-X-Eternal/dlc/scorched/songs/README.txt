@@ -1,0 +1,1 @@
+Drop one folder per song in here (same layout Codename normally expects under a mod's songs/ folder), then list each song's folder name, in play order, in this DLC's dlc.json under "songs": ["song1", "song2", ...].

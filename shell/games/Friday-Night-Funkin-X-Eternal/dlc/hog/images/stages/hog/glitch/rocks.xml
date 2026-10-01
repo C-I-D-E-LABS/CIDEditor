@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rocks.png"><SubTexture name="rocks funny0000" x="0" y="0" width="2678" height="595" frameX="0" frameY="0" frameWidth="2678" frameHeight="595" />
+<SubTexture name="rocks funny0001" x="0" y="595" width="2678" height="595" frameX="0" frameY="0" frameWidth="2678" frameHeight="595" />
+<SubTexture name="rocks funny0002" x="0" y="1190" width="2678" height="595" frameX="0" frameY="0" frameWidth="2678" frameHeight="595" />
+<SubTexture name="rocks funny0003" x="0" y="1785" width="2678" height="595" frameX="0" frameY="0" frameWidth="2678" frameHeight="595" />
+<SubTexture name="rocks funny0004" x="2678" y="0" width="2678" height="595" frameX="0" frameY="0" frameWidth="2678" frameHeight="595" />
+</TextureAtlas>

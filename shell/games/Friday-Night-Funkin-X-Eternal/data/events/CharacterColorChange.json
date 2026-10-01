@@ -1,0 +1,49 @@
+{
+    "params": [
+		{
+			"name": "Turn Off?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "AutoChange to healthbar colors?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+        {
+            "name": "Color",
+	    	"type": "ColorWheel",
+	    	"defaultValue": "#000000"
+        },
+		{
+			"name": "Tween?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+        {
+			"name": "Duration",
+			"type": "Float(0, 99999, 1, 2)",
+			"defaultValue": 1.00
+        },
+		{
+			"name": "Ease Type",
+			"type": "DropDown('linear', 'back', 'bounce', 'circ', 'cube', 'elastic', 'expo', 'quad', 'quart', 'quint', 'sine', 'smoothStep', 'smootherStep')",
+			"defaultValue": "linear"
+		},
+		{
+			"name": "Tween Type (excluded if linear)",
+			"type": "DropDown('In', 'Out', 'InOut', 'linear')",
+			"defaultValue": "linear"
+		},
+		{
+			"name": "Hide bg with BlackScreen?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+        {
+            "name": "BlackScreen Color",
+	    	"type": "ColorWheel",
+	    	"defaultValue": "#000000"
+        }
+    ]
+}

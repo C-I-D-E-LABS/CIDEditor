@@ -1,0 +1,18 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"songName": "Sunshine",
+		"character": "tailsdoll"
+	},
+	"opponentModeAllowed": false,
+	"icon": "taildoll",
+	"difficulties": [
+		"HARD"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Sunshine",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 105
+}

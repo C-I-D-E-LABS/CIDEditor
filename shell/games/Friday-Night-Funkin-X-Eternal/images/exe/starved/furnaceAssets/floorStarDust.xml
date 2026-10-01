@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="floorStarDust.png">
+<SubTexture name="bgAnim0000" x="0" y="256" width="1839" height="256" frameX="0" frameY="-287" frameWidth="1839" frameHeight="543" />
+<SubTexture name="bgAnim0001" x="0" y="512" width="1839" height="256" frameX="0" frameY="-287" frameWidth="1839" frameHeight="543" />
+<SubTexture name="bgAnim0002" x="0" y="0" width="1839" height="256" frameX="0" frameY="-287" frameWidth="1839" frameHeight="543" />
+</TextureAtlas>

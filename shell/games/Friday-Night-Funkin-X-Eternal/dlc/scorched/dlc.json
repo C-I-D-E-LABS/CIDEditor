@@ -1,0 +1,9 @@
+{
+  "songName": null,
+  "description": "Local DLC — drop your assets in this folder.",
+  "songs": ["Hedge", "Manual Blast"],
+  "type": "week",
+  "zipUrl": null,
+  "id": "scorched",
+  "name": "scorched"
+}

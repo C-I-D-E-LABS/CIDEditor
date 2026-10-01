@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-1075" y="180" sprite="bf&amp;gf/BoyfriendPov_AssetsNEW" scale="0.8" camx="600" camy="-250" isPlayer="true" icon="bf" color="#30B0D1">
+	<anim name="idle" anim="idle" x="-7.78"/>
+	<anim name="singDOWN" anim="down" x="17.58" y="-105.81"/>
+	<anim name="singRIGHT" anim="left" x="-80.8" y="1.73"/>
+	<anim name="singLEFT" anim="right" x="38.53" y="-26.86"/>
+	<anim name="singUP" anim="up" x="-43.74" y="283.07"/>
+	<anim name="singUP-alt" anim="hey" x="-19.09" y="19.09"/>
+</character>

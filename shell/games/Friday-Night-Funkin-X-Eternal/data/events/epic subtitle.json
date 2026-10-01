@@ -1,0 +1,29 @@
+{
+	"params": [
+        {
+            "name": "Text",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Speed",
+            "type": "Float(2, 20, 1)",
+            "defaultValue": 8
+        },
+        {
+            "name": "Clear",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "Side clear",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "prev txt",
+            "type": "Bool",
+            "defaultValue": false
+        }
+	]
+}

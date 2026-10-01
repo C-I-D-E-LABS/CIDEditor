@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="knucks.png">
+<SubTexture name="walk0000" x="0" y="0" width="38" height="37" frameX="-12" frameY="-11" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0001" x="0" y="37" width="35" height="36" frameX="-12" frameY="-12" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0002" x="78" y="0" width="29" height="35" frameX="-12" frameY="-13" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0003" x="35" y="37" width="32" height="36" frameX="-12" frameY="-12" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0004" x="38" y="0" width="40" height="37" frameX="-14" frameY="-11" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0005" x="107" y="35" width="37" height="34" frameX="-14" frameY="-14" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0006" x="0" y="73" width="32" height="34" frameX="-13" frameY="-14" frameWidth="64" frameHeight="48" />
+<SubTexture name="walk0007" x="107" y="0" width="37" height="35" frameX="-11" frameY="-13" frameWidth="64" frameHeight="48" />
+</TextureAtlas>

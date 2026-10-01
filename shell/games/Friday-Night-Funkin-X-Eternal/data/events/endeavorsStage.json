@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+			"name": "Which stage ? 0-3",
+			"type": "Int(0, 4, 1)",
+			"defaultValue": 0
+		},
+        {
+            "name": "Reset health to middle?",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

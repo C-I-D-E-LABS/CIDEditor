@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="440" sprite="coldsteel/chicken" scale="1.8" flipX="true" camx="110" camy="-70" icon="bf" color="#31B0D1">
+	<anim name="singLEFT" anim="chicken walk" x="11.67" y="2.22" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="chicken walk" x="11.67" y="2.22" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="chicken walk" x="11.67" y="2.22" fps="24" loop="false"/>
+	<anim name="singUP" anim="chicken walk" x="11.67" y="2.22" fps="24" loop="false"/>
+	<anim name="idle" anim="chicken walk" x="11.67" y="2.22" fps="24" loop="true"/>
+</character>

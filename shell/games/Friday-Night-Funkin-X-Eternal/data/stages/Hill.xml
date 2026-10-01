@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="exe/lordx/" name="Hill" zoom="1.2">
+	<sprite x="130" scroll="0.6" sprite="Sky" y="-150" type="none" scale="2.5" color="#FF8800" name="skyX"/>
+	<sprite scrolly="0.9" x="-44.4170435337318" sprite="Mounts" y="-281.493099549159" type="none" scale="1.98078501326453" scrollx="0.85" name="hillsX"/>
+	<sprite x="8.50783893443776" y="-176.377857454107" type="none" scrollx="0.9" name="hillsX2" scrolly="0.95" sprite="Mountsfront" scalex="1.98456598854422" scaley="1.81329749241093"/>
+	<sprite x="130" sprite="floor" type="none" scale="2" name="groundX"/>
+	<sprite x="130" sprite="plants/plant1" type="none" scale="1.7" name="plant1"/>
+	<sprite x="130" sprite="plants/plant2" type="none" scale="1.7" name="plant2"/>
+	<sprite x="130" sprite="plants/plant3" type="none" scale="1.7" name="plant3"/>
+	<sprite x="130" sprite="plants/plant4" type="none" scale="1.7" name="plant4"/>
+	<sprite x="130" sprite="plants/plant5" type="none" scale="1.7" name="plant5"/>
+	<sprite x="130" sprite="plants/plant6" type="none" scale="1.7" name="plant6"/>
+	<sprite x="130" sprite="plants/plant7" type="none" scale="1.7" name="plant7"/>
+	<dad/>
+	<girlfriend/>
+	<boyfriend/>
+	<sprite scrolly="1.05" x="100" sprite="FG" type="none" scale="2" scrollx="1.15" name="plantsX2"/>
+</stage>

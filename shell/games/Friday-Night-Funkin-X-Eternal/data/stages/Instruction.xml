@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="Instruction">
+	<sprite antialiasing="false" x="-15" sprite="exe/Instruction/sky" y="53" type="none" scale="2.1" scrollx="1.2" name="sprite_5"/>
+	<sprite antialiasing="false" x="-56" sprite="exe/Instruction/mounts" y="227" type="none" scale="2.54" scrollx="1.1" name="sprite_6"/>
+	<sprite antialiasing="false" x="-31" sprite="exe/Instruction/logo" y="190" type="none" scale="3.05" name="sprite_7"/>
+	<dad/>
+	<girlfriend/>
+	<boyfriend/>
+	<sprite x="-900" scroll="1.1" sprite="exe/Instruction/txt" y="-600" scale="0.3" name="txt"/>
+</stage>

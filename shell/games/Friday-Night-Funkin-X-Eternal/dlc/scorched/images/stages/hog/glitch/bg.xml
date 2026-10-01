@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bg.png"><SubTexture name="bg colourful0000" x="0" y="0" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0001" x="0" y="722" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0002" x="0" y="1444" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0003" x="0" y="2166" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0004" x="0" y="2888" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0005" x="3986" y="0" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0006" x="3986" y="722" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+<SubTexture name="bg colourful0007" x="3986" y="1444" width="3986" height="722" frameX="0" frameY="0" frameWidth="3986" frameHeight="722" />
+</TextureAtlas>

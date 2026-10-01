@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="180" y="200" sprite="sonicexe/Sonicexe_remake" camx="-200" color="#1D1989">
+	<anim name="idle" anim="exidle"/>
+	<anim name="singLEFT" anim="exleft" x="141" y="9"/>
+	<anim name="singRIGHT" anim="exright" x="-18" y="10"/>
+	<anim name="singDOWN" anim="exdown" x="91" y="-41"/>
+	<anim name="singUP" anim="exup" x="-40" y="171"/>
+	<anim name="singDOWN-alt" anim="exlaugh" x="10" y="10"/>
+	<anim name="scream" anim="exscream" x="113" y="240"/>
+	<anim name="dia" anim="exdialouge" x="168" y="111"/>
+</character>

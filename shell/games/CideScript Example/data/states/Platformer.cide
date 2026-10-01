@@ -1,0 +1,151 @@
+# Platformer.cide - a whole little platformer in one CideScript file: no images, no tilemap.
+# Entered from Menu.cide with  FlxG.switchState(ModState.new("Platformer")).
+#
+# Arrows/WASD move - Up/Space/Z jump (hold for higher) - R restart - Esc back to the menu.
+#
+# Every frame: _process() reads input -> flixel moves everything -> postUpdate() collides.
+
+const FLOOR = 0x1000        # the bit set in `touching` while standing on something (FlxDirectionFlags.FLOOR)
+const GRAVITY = 1100
+const RUN_SPEED = 200
+const RUN_ACCEL = 1400
+const JUMP_SPEED = 520      # ~120px high with this gravity
+const JUMP_CUT = 200        # let go of jump early = upward speed cut to this (short hop)
+const COYOTE_TIME = 0.1     # seconds you can still jump after running off a ledge
+const WORLD_WIDTH = 2400
+
+var ground = FlxG.height - 40
+var spawn = [60, FlxG.height - 120]
+
+var platforms
+var mover
+var coins
+var goal
+var player
+var info
+var coyote = 0.0
+var score = 0
+var total = 0
+var won = false
+
+func _ready():
+	FlxG.camera.bgColor = 0xFF1B2433
+	FlxG.worldBounds.set(0, 0, WORLD_WIDTH, FlxG.height)
+	FlxG.camera.setScrollBoundsRect(0, 0, WORLD_WIDTH, FlxG.height)
+
+	# the level: [x, y, width, height]
+	platforms = FlxGroup.new()
+	add(platforms)
+	for p in [
+		[0, ground, 700, 40], [820, ground, 400, 40], [1450, ground, 950, 40],   # ground, with two gaps
+		[300, ground - 120, 140, 16], [520, ground - 220, 140, 16],
+		[760, ground - 150, 100, 16], [1000, ground - 260, 160, 16],
+		[1700, ground - 100, 120, 16], [1880, ground - 190, 120, 16], [2060, ground - 280, 120, 16],
+	]:
+		add_block(p[0], p[1], p[2], p[3])
+
+	# slides back and forth over the second gap - standing on it carries you along
+	mover = add_block(1220, ground - 90, 96, 16)
+	mover.color = 0xFF8FA0D0
+	mover.velocity.x = 70
+
+	coins = FlxGroup.new()
+	add(coins)
+	for c in [
+		[370, ground - 160], [590, ground - 260], [800, ground - 190], [1070, ground - 300],
+		[1330, ground - 140], [1760, ground - 140], [1940, ground - 230], [2120, ground - 320],
+	]:
+		var coin = FlxSprite.new(c[0], c[1])
+		coin.makeGraphic(12, 12, 0xFFFFD040)
+		coins.add(coin)
+		total += 1
+
+	goal = FlxSprite.new(2320, ground - 80)
+	goal.makeGraphic(16, 80, 0xFF40E080)
+	add(goal)
+
+	player = FlxSprite.new(spawn[0], spawn[1])
+	player.makeGraphic(20, 28, 0xFFE8C170)
+	player.maxVelocity.set(RUN_SPEED, 900)
+	player.drag.x = RUN_ACCEL
+	player.acceleration.y = GRAVITY
+	add(player)
+	FlxG.camera.follow(player)
+	FlxG.camera.followLerp = 0.15
+
+	# the HUD gets its own camera so it doesn't scroll with the level
+	var hud = FlxCamera.new()
+	hud.bgColor = 0x00000000
+	FlxG.cameras.add(hud, false)
+	info = FlxText.new(16, 16, 0, "", 20)
+	info.cameras = [hud]
+	add(info)
+
+func add_block(x, y, w, h):
+	var block = FlxSprite.new(x, y)
+	block.makeGraphic(w, h, 0xFFFFFFFF)
+	block.color = 0xFF4C6A3C
+	block.immovable = true
+	platforms.add(block)
+	return block
+
+func _process(elapsed):
+	if controls.BACK:
+		FlxG.switchState(ModState.new("Menu"))
+		return
+	if won:
+		if controls.ACCEPT: FlxG.switchState(ModState.new("Menu"))
+		return
+
+	# run
+	player.acceleration.x = 0
+	if controls.LEFT and not controls.RIGHT:
+		player.acceleration.x = -RUN_ACCEL
+		player.flipX = true
+	elif controls.RIGHT and not controls.LEFT:
+		player.acceleration.x = RUN_ACCEL
+		player.flipX = false
+
+	# jump - hold it for a higher jump
+	var jump_pressed = controls.UP_P or FlxG.keys.justPressed.SPACE or FlxG.keys.justPressed.Z
+	var jump_held = controls.UP or FlxG.keys.pressed.SPACE or FlxG.keys.pressed.Z
+	if jump_pressed and coyote > 0:
+		player.velocity.y = -JUMP_SPEED
+		coyote = 0
+	elif not jump_held and player.velocity.y < -JUMP_CUT:
+		player.velocity.y = -JUMP_CUT
+
+	# the moving platform turns around at the edges of the gap
+	if mover.x >= 1354: mover.velocity.x = -70
+	elif mover.x <= 1220: mover.velocity.x = 70
+
+	for coin in coins.members:
+		if coin != null and coin.alive: coin.angle += 180 * elapsed
+
+	if FlxG.keys.justPressed.R: respawn()
+
+func postUpdate(elapsed):
+	FlxG.collide(player, platforms)
+	if (player.touching & FLOOR) != 0: coyote = COYOTE_TIME
+	else: coyote -= elapsed
+
+	FlxG.overlap(player, coins, func(p, coin): collect(coin))
+	if player.y > FlxG.height + 100: respawn()
+
+	if not won and FlxG.overlap(player, goal):
+		won = true
+		player.acceleration.x = 0
+		player.velocity.x = 0
+
+	if won:
+		info.text = str("You made it!  Coins: ", score, " / ", total, "\nEnter - back to the menu")
+	else:
+		info.text = str("Coins: ", score, " / ", total, "\nArrows/WASD move - Up/Space/Z jump (hold for higher) - R restart - Esc menu")
+
+func collect(coin):
+	coin.kill()
+	score += 1
+
+func respawn():
+	player.setPosition(spawn[0], spawn[1])
+	player.velocity.set(0, 0)

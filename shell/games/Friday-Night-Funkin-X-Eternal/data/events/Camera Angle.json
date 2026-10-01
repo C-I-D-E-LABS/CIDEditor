@@ -1,0 +1,44 @@
+{
+    "params": [
+        {
+            "name": "Tween Angle?",
+            "type": "Bool",
+            "defaultValue": true,
+            "saveIfDefault": false
+        },
+        {
+            "name": "New Angle",
+            "type": "Float(-359, 359, 0.01, 2)",
+            "defaultValue": 0
+        },
+        {
+            "name": "Camera",
+            "type": "DropDown('camGame', 'camHUD')",
+            "defaultValue": "camGame"
+        },
+        {
+            "name": "Tween Time (Steps)",
+            "type": "Float(0.25, 9999, 0.25, 2)",
+            "defaultValue": 4,
+            "saveIfDefault": false
+        },
+        {
+            "name": "Tween Ease (ex: circ, quad, cube)",
+            "type": "DropDown('linear', 'back', 'bounce', 'circ', 'cube', 'elastic', 'expo', 'quad', 'quart', 'quint', 'sine', 'smoothStep', 'smootherStep')",
+            "defaultValue": "linear",
+            "saveIfDefault": false
+        },
+        {
+            "name": "Tween Type (excluded if linear, ex: InOut)",
+            "type": "DropDown('In', 'Out', 'InOut')",
+            "defaultValue": "In",
+            "saveIfDefault": false
+        },
+        {
+            "name": "Multiplicative?",
+            "type": "Bool",
+            "defaultValue": true,
+            "saveIfDefault": false
+        }
+    ]
+}

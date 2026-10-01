@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="yoru_assets_world" icon="yoru" x="-700" y="460" alpha="1" scale="0.8" camxoffset="-700" camyoffset="630" flipX="false" zoomAmt="1.0">
+	<anim name="idle" anim="IDLE"/>
+	<anim name="singDOWN" anim="DOWN" x="38" y="-76"/>
+	<anim name="singLEFT" anim="RIGHT" x="81" y="-8"/>
+	<anim name="singRIGHT" anim="LEFT" x="-76" y="-30"/>
+	<anim name="singUP" anim="UP" x="-24" y="46"/>
+</character>

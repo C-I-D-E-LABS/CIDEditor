@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Prowler_Concept.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="prowleridle0000" x="0" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0001" x="649" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0002" x="1298" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0003" x="1947" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0004" x="2596" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0005" x="3245" y="0" width="649" height="472"/>
+	<SubTexture name="prowleridle0006" x="0" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0007" x="649" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0008" x="1298" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0009" x="1947" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0010" x="2596" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0011" x="3245" y="472" width="649" height="472"/>
+	<SubTexture name="prowleridle0012" x="0" y="944" width="649" height="472"/>
+	<SubTexture name="prowleridle0013" x="649" y="944" width="649" height="472"/>
+	<SubTexture name="prowleridle0014" x="1298" y="944" width="649" height="472"/>
+</TextureAtlas>

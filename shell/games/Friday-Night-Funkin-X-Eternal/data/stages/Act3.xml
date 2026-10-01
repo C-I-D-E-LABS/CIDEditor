@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage name="Act3" zoom="0.75">
+	<!-- Normal Triple Trouble stage -->
+	<sprite x="821" sprite="exe/tt-stage/Glitch" y="-118" scalex="1.63" scaley="1.59" name="skyTT"/>
+	<sprite scroll="1.1" sprite="exe/tt-stage/backTrees" name="backTreesTT"/>
+	<sprite sprite="exe/tt-stage/grassFlat" y="-100" scalex="0.75" angle="5" scrollx="1.05" scaley="0.7" name="grassAngleTT"/>
+	<sprite sprite="exe/tt-stage/grassFlat" name="grassFlatTT"/>
+
+	<!-- X (Sonic.EXE) variant stage -->
+	<sprite scroll="1.1" sprite="exe/tt-stage/x/backTrees" name="backTreesXTT"/>
+	<sprite x="-359" sprite="exe/tt-stage/x/grass" y="380" scalex="0.75" angle="5" scrollx="1.05" scaley="0.7" name="grassAngleXTT"/>
+	<sprite type="none" sprite="exe/tt-stage/x/crystals" name="crystalsXTT"/>
+	<sprite x="-4" sprite="exe/tt-stage/x/grass" y="650" name="grassFlatXTT"/>
+
+	<dad/>
+	<girlfriend/>
+	<boyfriend/>
+
+	<sprite scroll="0.8" sprite="exe/tt-stage/fg" name="frontTreesTT"/>
+	<sprite scroll="0.8" sprite="exe/tt-stage/x/fg" name="frontTreesXTT"/>
+</stage>

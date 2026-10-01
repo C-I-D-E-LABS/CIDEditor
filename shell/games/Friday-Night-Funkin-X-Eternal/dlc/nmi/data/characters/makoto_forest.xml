@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-1500" y="550" sprite="makoto_assets" scale="0.7" camx="-200" camy="-400" icon="NMIWorld" zoomAmt="0.95">
+	<anim name="idle" anim="anims/idle" loop="true"/>
+	<anim name="singDOWN" anim="anims/down" x="-39.71" y="-91.15"/>
+	<anim name="singRIGHT" anim="anims/right" x="-225" y="-188"/>
+	<anim name="singLEFT" anim="anims/left" x="125.71" y="112.86"/>
+	<anim name="singUP" anim="anims/up" x="144" y="158.57"/>
+</character>

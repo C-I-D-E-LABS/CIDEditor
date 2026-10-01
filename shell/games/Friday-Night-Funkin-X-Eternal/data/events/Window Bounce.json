@@ -1,0 +1,6 @@
+{
+    "params": [
+        {"name": "Enable", "type": "Bool", "defaultValue": true},
+        {"name": "Speed", "type": "Float(0, 2000, 10, 0)", "defaultValue": 300}
+    ]
+}

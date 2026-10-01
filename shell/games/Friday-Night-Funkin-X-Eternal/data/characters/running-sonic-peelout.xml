@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-67" y="-519" sprite="sonic/SonicPeelout" antialiasing="false" flipX="true" camx="250" camy="100" isPlayer="true" icon="sonic" color="#0023FC">
+	<anim name="idle" anim="idle0" loop="true"/>
+	<anim name="singLEFT" anim="left0" x="-69" y="-18"/>
+	<anim name="singRIGHT" anim="right0" x="-64" y="-18"/>
+	<anim name="singUP" anim="up0" x="-72" y="-19"/>
+	<anim name="singDOWN" anim="down0" x="-71" y="-20"/>
+	<anim name="death" anim="death" x="-41" y="30"/>
+	<anim name="yap" anim="yap" x="-28" y="9" loop="true"/>
+</character>

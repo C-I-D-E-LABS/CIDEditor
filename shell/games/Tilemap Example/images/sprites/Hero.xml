@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hero.png">
+	<SubTexture name="idle0000" x="0" y="0" width="24" height="32"/>
+	<SubTexture name="idle0001" x="24" y="0" width="24" height="32"/>
+	<SubTexture name="run0000" x="48" y="0" width="24" height="32"/>
+	<SubTexture name="run0001" x="72" y="0" width="24" height="32"/>
+	<SubTexture name="run0002" x="96" y="0" width="24" height="32"/>
+	<SubTexture name="run0003" x="120" y="0" width="24" height="32"/>
+	<SubTexture name="jump0000" x="144" y="0" width="24" height="32"/>
+	<SubTexture name="fall0000" x="168" y="0" width="24" height="32"/>
+</TextureAtlas>

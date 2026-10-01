@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#000000",
+	"opponentModeAllowed": false,
+	"icon": "yoru",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Kagekyofu",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 135
+}

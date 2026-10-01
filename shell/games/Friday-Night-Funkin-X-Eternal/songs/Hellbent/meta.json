@@ -1,0 +1,17 @@
+{
+	"color": "#000000",
+	"customValues": {
+		"character": "lordx"
+	},
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "lordx",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Hellbent",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 160
+}

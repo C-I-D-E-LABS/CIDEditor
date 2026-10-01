@@ -1,0 +1,18 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"songName": "ILLEGAL INSTRUCTION",
+		"character": "lordx"
+	},
+	"opponentModeAllowed": false,
+	"icon": "lordx",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "ILLEGAL INSTRUCTION",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 200
+}

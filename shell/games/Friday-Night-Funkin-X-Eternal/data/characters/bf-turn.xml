@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-550" y="320" sprite="bf&amp;gf/bf-turn" flipX="true" camx="250" camy="25" isPlayer="true" icon="bf" color="#31B0D1">
+	<anim name="idle" anim="BF idle dance0"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" y="-52"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-37" y="-7"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="50" y="-5"/>
+	<anim name="turn" anim="BF turn sequence" x="96" y="13"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="12" y="30"/>
+</character>

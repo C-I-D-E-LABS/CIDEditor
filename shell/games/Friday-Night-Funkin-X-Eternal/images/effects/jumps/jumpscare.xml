@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sonicJUMPSCARE.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sonicSPOOK0000" x="0" y="0" width="953" height="1311" frameX="-96" frameY="-283" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0001" x="953" y="0" width="953" height="1253" frameX="-88" frameY="-199" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0002" x="1906" y="0" width="953" height="1026" frameX="-86" frameY="-216" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0003" x="2859" y="0" width="1001" height="798" frameX="-85" frameY="-64" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0004" x="0" y="1311" width="1125" height="627" frameX="-20" frameY="-176" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0005" x="1125" y="1311" width="1144" height="613" frameX="0" frameY="-171" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0006" x="2269" y="1311" width="1099" height="655" frameX="-26" frameY="-105" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0007" x="0" y="1966" width="1099" height="662" frameX="-23" frameY="-98" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0008" x="1099" y="1966" width="1114" height="632" frameX="-17" frameY="-126" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0009" x="2213" y="1966" width="1099" height="760" frameX="-23" frameY="0" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0010" x="0" y="2726" width="1098" height="642" frameX="-25" frameY="-118" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0011" x="1098" y="2726" width="1099" height="706" frameX="-27" frameY="-54" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0012" x="2197" y="2726" width="1099" height="694" frameX="-24" frameY="-66" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0013" x="0" y="3432" width="1105" height="725" frameX="-17" frameY="-54" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0014" x="1099" y="1966" width="1114" height="632" frameX="-17" frameY="-126" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0015" x="2213" y="1966" width="1099" height="760" frameX="-23" frameY="0" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0016" x="0" y="2726" width="1098" height="642" frameX="-25" frameY="-118" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0017" x="1098" y="2726" width="1099" height="706" frameX="-27" frameY="-54" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0018" x="2197" y="2726" width="1099" height="694" frameX="-24" frameY="-66" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0019" x="0" y="3432" width="1105" height="725" frameX="-17" frameY="-54" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0020" x="1105" y="3432" width="1122" height="646" frameX="-13" frameY="-113" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0021" x="2227" y="3432" width="1099" height="584" frameX="-29" frameY="-176" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0022" x="0" y="4157" width="1001" height="847" frameX="-85" frameY="-108" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0023" x="1001" y="4157" width="953" height="1311" frameX="-96" frameY="-283" frameWidth="1145" frameHeight="1594"/>
+	<SubTexture name="sonicSPOOK0024" x="1954" y="4157" width="0" height="0" frameX="9" frameY="74" frameWidth="1145" frameHeight="1594"/>
+</TextureAtlas>
