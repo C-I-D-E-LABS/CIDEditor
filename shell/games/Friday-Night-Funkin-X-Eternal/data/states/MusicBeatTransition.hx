@@ -1,1 +1,0 @@
-importScript('data/states/transitions/classic-sonic');

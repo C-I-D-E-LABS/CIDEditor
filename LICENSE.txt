@@ -1,0 +1,100 @@
+CIDEditor END USER LICENSE AGREEMENT
+====================================
+CIDEditor - Creative Integrated Development Environment, by C-I-D-E Labs
+Copyright (c) 2026 N1ckolasGFX. All rights reserved.
+https://n1ckolasgfx.com/cide-labs#home
+
+Please read this agreement before installing or using CIDEditor. By installing, copying or using
+CIDEditor you agree to it. If you don't agree, don't install or use CIDEditor.
+
+1. WHO THIS IS BETWEEN
+   This agreement is between you (a person, or the organization you're accepting it for) and
+   N1ckolasGFX, doing business as C-I-D-E Labs ("we", "us"). "CIDEditor" means the CIDEditor
+   program, its runtime player ("the Runtime" - the shell program CIDEditor puts into games it
+   exports), its built-in themes, templates, documentation and updates, but not the third-party
+   components described in section 8.
+
+2. WHAT YOU MAY DO
+   We give you a free, non-exclusive, non-transferable, revocable license to:
+   a) install and use CIDEditor on any number of computers you own or control, for personal,
+      educational or commercial projects;
+   b) make games, mods and other projects with it ("Your Projects");
+   c) distribute Your Projects exported with CIDEditor, including the Runtime inside them, as
+      described in section 4.
+
+3. WHAT YOU MAY NOT DO
+   Except where the law or a third-party license in section 8 expressly allows it, you may not:
+   a) sell, rent, lease, sublicense, or charge for CIDEditor itself;
+   b) share or host copies of the CIDEditor installer or program files anywhere other than our
+      official download page - point people to https://n1ckolasgfx.com/cide-labs instead;
+   c) decompile, disassemble, reverse engineer, or try to obtain CIDEditor's source code;
+   d) modify CIDEditor or make programs based on it, other than Your Projects;
+   e) remove or change any copyright, trademark or license notice in CIDEditor;
+   f) use the CIDEditor or C-I-D-E Labs names or logos to suggest we made, endorse or sponsor
+      Your Projects - though you may say a project was "Made with CIDEditor";
+   g) use CIDEditor to break the law or to infringe anyone else's rights.
+
+4. YOUR PROJECTS ARE YOURS
+   a) We don't claim any ownership of Your Projects or of the art, music, code, levels and other
+      content you put into them. You may give them away or sell them however you like.
+   b) Games you export include the Runtime. You may distribute the Runtime only as part of an
+      exported project, unchanged, and not as a standalone program or as part of a tool that
+      competes with CIDEditor.
+   c) You're responsible for having the rights to everything in Your Projects. CIDEditor can be
+      used to make fan games and mods of other people's games; the original games' characters,
+      art, music and names belong to their owners, and this agreement gives you no rights to them.
+   d) A credit such as "Made with CIDEditor" is appreciated but not required.
+
+5. OWNERSHIP
+   CIDEditor is licensed, not sold. We (and our licensors) keep all rights, title and interest in
+   CIDEditor, including all copyrights, trademarks and other intellectual property. CIDEditor's
+   source code is confidential and is not part of this license. Any rights not expressly given to
+   you here are kept by us.
+
+6. UPDATES AND ONLINE FEATURES
+   a) We may release updates; this agreement applies to them unless they come with their own terms.
+   b) CIDEditor doesn't send us personal data. If you have Discord running, CIDEditor shows what
+      you're doing in it on your Discord profile ("Rich Presence"), through the Discord app on
+      your computer; Discord's own terms and privacy policy apply to that.
+
+7. NO WARRANTY
+   CIDEDITOR IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR
+   NON-INFRINGEMENT. WE DON'T PROMISE THAT CIDEDITOR WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT
+   IT WON'T LOSE DATA - KEEP BACKUPS OF YOUR PROJECTS.
+
+8. THIRD-PARTY COMPONENTS
+   CIDEditor includes open-source components (such as Haxe, Lime, OpenFL, HaxeFlixel, Dear ImGui,
+   SDL and libVLC) that are licensed to you under their own licenses, listed with their full texts
+   in THIRD-PARTY-NOTICES.txt next to CIDEditor. Those licenses govern those components, and
+   nothing in this agreement limits rights they give you. In particular, the libVLC and OpenAL
+   Soft libraries are under the GNU Lesser General Public License: you may replace those library
+   files with your own builds of them, and you may reverse engineer CIDEditor to the extent needed
+   to debug such replacements.
+
+9. LIMITATION OF LIABILITY
+   TO THE FULLEST EXTENT THE LAW ALLOWS, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE OR
+   GOODWILL, ARISING FROM OR RELATED TO CIDEDITOR OR THIS AGREEMENT, EVEN IF WE WERE TOLD THEY
+   WERE POSSIBLE. OUR TOTAL LIABILITY FOR ANY CLAIM WILL NOT BE MORE THAN THE GREATER OF THE
+   AMOUNT YOU PAID US FOR CIDEDITOR (IF ANY) OR US $10. Some places don't allow these limits, so
+   they may not all apply to you.
+
+10. ENDING THIS AGREEMENT
+    This agreement lasts until it ends. It ends automatically if you break it. You can end it any
+    time by deleting CIDEditor. When it ends you must stop using CIDEditor and delete your copies -
+    but Your Projects stay yours, and copies of them you already distributed (with the Runtime in
+    them) can stay out there. Sections 4(a), 4(c), 5, 7, 9, 11 and 12 keep applying after it ends.
+
+11. GOVERNING LAW
+    This agreement is governed by the laws of the State of California, USA, without regard to its
+    conflict-of-law rules. Any dispute will be handled in the state or federal courts in Orange
+    County, California, unless the law where you live says otherwise.
+
+12. EVERYTHING ELSE
+    This is the whole agreement between you and us about CIDEditor. If a court finds part of it
+    unenforceable, the rest still applies. Not enforcing a part of it isn't giving it up. You may
+    not transfer this agreement; we may transfer it to a successor of CIDEditor. We may update this
+    agreement for future versions, and will show the new one when you install them.
+
+Questions: https://n1ckolasgfx.com/cide-labs#home

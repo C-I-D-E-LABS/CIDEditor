@@ -1,0 +1,12 @@
+# games people make or add stay on their own computer - only the folder's readme is kept
+games/*
+!games/readme.txt
+dlc/*
+shell/games/
+shell/dlc/
+# made while CIDEditor runs
+imgui.ini
+crash/
+shell/crash/
+shell/imgui.ini
+*.log

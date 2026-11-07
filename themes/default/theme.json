@@ -1,0 +1,11 @@
+{
+	"backgroundOpacity": 0.18,
+	"layout": {
+		"barLabels": false,
+		"bar": "left"
+	},
+	"accent": "#2FB3A3",
+	"background": null,
+	"name": "Default",
+	"splash": "splash.png"
+}
